@@ -28,13 +28,15 @@ data/
 
 Esses três arquivos são produtos do processamento do projeto, não fontes externas independentes.
 
-## Arquivos não versionados
+## Download do pacote de dados
 
-Os microdados `ZIKABR16.csv` a `ZIKABR26.csv` devem ser baixados do conjunto oficial:
+Todas as bases necessárias foram reunidas em um único pacote:
 
-https://dadosabertos.saude.gov.br/dataset/arboviroses-zika-virus
+- [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1TgI6bbyCCGLmpjxKTdG3yV2eWcsXDQpA)
 
-Coloque todos os 11 arquivos em `data/sinan_zika/`, mantendo os nomes originais. O `.gitignore` impede que eles sejam enviados ao GitHub.
+Após baixar e extrair o ZIP, copie as pastas `auxiliares`, `derivados` e `sinan_zika` para `data/`. A estrutura final deve conter, entre outros arquivos, `data/sinan_zika/ZIKABR16.csv` até `data/sinan_zika/ZIKABR26.csv`.
+
+Os microdados anuais não são versionados no GitHub. Sua fonte oficial é o conjunto [SINAN/Vírus Zika — Portal de Dados Abertos do SUS](https://dadosabertos.saude.gov.br/dataset/arboviroses-zika-virus), e o `.gitignore` impede que os arquivos sejam enviados acidentalmente ao repositório.
 
 ## Definição utilizada
 

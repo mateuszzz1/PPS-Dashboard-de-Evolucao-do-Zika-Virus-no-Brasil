@@ -78,9 +78,15 @@ Chikungunya e Febre Amarela são bases adicionais usadas na comparação entre a
 
 ## Como executar o projeto
 
-### 1. Obter os microdados anuais
+### 1. Baixar o pacote de dados
 
-Baixe os arquivos `ZIKABR16.csv` a `ZIKABR26.csv` na fonte oficial e coloque-os em `data/sinan_zika/`. Eles não são versionados neste repositório devido ao tamanho.
+Baixe o pacote consolidado com todas as bases necessárias:
+
+- [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1TgI6bbyCCGLmpjxKTdG3yV2eWcsXDQpA)
+
+Extraia o arquivo ZIP e copie as pastas `auxiliares`, `derivados` e `sinan_zika` para a pasta `data/` deste repositório. Ao final, confirme que existe o caminho `data/sinan_zika/ZIKABR26.csv`.
+
+Os microdados anuais não são versionados no GitHub devido ao tamanho e devem ser obtidos por esse pacote. A origem oficial dos dados continua indicada na seção **Fontes utilizadas**.
 
 ### 2. Ajustar os caminhos locais
 
