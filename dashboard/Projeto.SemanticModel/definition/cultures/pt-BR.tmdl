@@ -1,0 +1,6968 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fdata": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fdata": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.tp_not": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "TP_NOT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tp not": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TP_NOT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_agravo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_AGRAVO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id agravo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_AGRAVO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification agravo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity agravo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier agravo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential agravo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cs_suspeit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CS_SUSPEIT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs suspeit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CS_SUSPEIT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_notific": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DT_NOTIFIC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt notific": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT_NOTIFIC": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fdata.sem_not": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "SEM_NOT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sem not": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SEM_NOT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.sg_uf_not": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "SG_UF_NOT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sg uf not": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SG_UF_NOT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_municip": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_MUNICIP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id municip": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_MUNICIP": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification municip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity municip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier municip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential municip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_regiona": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_REGIONA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id regiona": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_REGIONA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification regiona": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity regiona": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier regiona": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential regiona": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_sin_pri": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DT_SIN_PRI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt sin pri": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT_SIN_PRI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "pri": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sin pri": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.sem_pri": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "SEM_PRI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sem pri": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SEM_PRI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.nu_idade_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "NU_IDADE_N"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nu idade n": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NU_IDADE_N": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cs_sexo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CS_SEXO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs sexo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CS_SEXO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cs_gestant": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CS_GESTANT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs gestant": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CS_GESTANT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cs_raca": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CS_RACA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs raca": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CS_RACA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cs_escol_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CS_ESCOL_N"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs escol n": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CS_ESCOL_N": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.sg_uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "SG_UF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sg uf": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SG_UF": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_mn_resi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_MN_RESI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id mn resi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_MN_RESI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification mn resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity mn resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier mn resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential mn resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_rg_resi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_RG_RESI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id rg resi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_RG_RESI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification rg resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity rg resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier rg resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential rg resi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_pais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_PAIS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id pais": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_PAIS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.nduplic_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "NDUPLIC_N"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nduplic n": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NDUPLIC_N": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.in_vinculum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "IN_VINCULA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in vinculum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IN_VINCULA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_invest": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DT_INVEST"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt invest": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT_INVEST": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_ocupa_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_OCUPA_N"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id ocupa n": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_OCUPA_N": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification ocupa n": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity ocupa n": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier ocupa n": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential ocupa n": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.classi_fin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CLASSI_FIN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "classi fin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CLASSI_FIN": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "classi appendage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "classi limb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "classi organ": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "classi member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "classi flipper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classi paddle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classi projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "classi propeller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "classi rudder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "classi stabilizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.criterio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CRITERIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "criterio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.tpautocto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "TPAUTOCTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tpautocto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.coufinf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "COUFINF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coufinf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.copaisinf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "COPAISINF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "copaisinf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.comuninf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "COMUNINF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comuninf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.doenca_tra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DOENCA_TRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "doenca tra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DOENCA_TRA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.evolucao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "EVOLUCAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "evolucao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_obito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DT_OBITO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt obito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT_OBITO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fdata.dt_obito.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_OBITO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_obito.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_OBITO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt obito ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_obito.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_OBITO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt obito trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_obito.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_OBITO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt obito mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_obito.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_OBITO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt obito dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_encerra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DT_ENCERRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt encerra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT_ENCERRA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fdata.dt_encerra.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_ENCERRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_encerra.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_ENCERRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt encerra ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_encerra.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_ENCERRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt encerra trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_encerra.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_ENCERRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt encerra mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_encerra.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "DT_ENCERRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt encerra dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cs_flxret": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CS_FLXRET"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs flxret": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CS_FLXRET": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.flxrecebi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "FLXRECEBI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "flxrecebi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.tp_sistema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "TP_SISTEMA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tp sistema": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TP_SISTEMA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.tpuninot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "TPUNINOT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tpuninot": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ID_UNIDADE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_UNIDADE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.ano_nasc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "ANO_NASC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano nasc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ANO_NASC": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fdata.ano_nasc.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "ANO_NASC",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.ano_nasc.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "ANO_NASC",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano nasc ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.ano_nasc.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "ANO_NASC",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano nasc trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.ano_nasc.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "ANO_NASC",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano nasc mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.ano_nasc.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "VariationSource": "ANO_NASC",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano nasc dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.dt_digita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "DT_DIGITA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt digita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT_DIGITA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "fdata.nu_idadea_n_calc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "NU_IDADEA_N_CALC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nu idadea n calc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NU_IDADEA_N_CALC": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.cod": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "Cod"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.faixa_etaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "FAIXA_ETARIA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa etaria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FAIXA_ETARIA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fdata.class_fin_form": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fdata",
+			          "ConceptualProperty": "CLASS_FIN_FORM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "class fin form": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CLASS_FIN_FORM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "form": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fin form": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "classification fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "category fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "genre fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "course fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "grade fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "lecture fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "lesson fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "rank fin form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "class fin procedure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mensure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_mensure": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mensure.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mensure.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mensure.dead": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Dead"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dead": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "deceased": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stiff": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mensure.dead1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% Dead"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% dead": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage dead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct dead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d municipality": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dMunicipalities": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "d metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "d burgh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "d burg": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "burgh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "burg": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "d city": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "d town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "d borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "city": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality.código_do_município__tom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities",
+			          "ConceptualProperty": "CÓDIGO DO MUNICÍPIO - TOM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "código do município - tom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "código do município tom": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality.código_do_município__ibge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities",
+			          "ConceptualProperty": "CÓDIGO DO MUNICÍPIO - IBGE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "código do município - ibge": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "código do município ibge": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality.município__tom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities",
+			          "ConceptualProperty": "MUNICÍPIO - TOM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "município - tom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "município tom": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality.município__ibge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities",
+			          "ConceptualProperty": "MUNICÍPIO - IBGE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "município - ibge": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "município ibge": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality.uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities",
+			          "ConceptualProperty": "UF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_municipality.cod": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dMunicipalities",
+			          "ConceptualProperty": "Cod"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dDates": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "d moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "d period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_date.data.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.nome_mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Nome Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_date.mes_e__ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dDates",
+			          "ConceptualProperty": "Mes e  ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes e  ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me e  ano": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mes e ano": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "me e ano": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "d_date_data_trimestre_has_d_date_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.trimestre": {
+			          "Target": {
+			            "Entity": "d_date.data.trimestre"
+			          }
+			        },
+			        "d_date.data.mê": {
+			          "Target": {
+			            "Entity": "d_date.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.mê"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_date.data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_date.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "d_date_data_ano_has_d_date_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.ano": {
+			          "Target": {
+			            "Entity": "d_date.data.ano"
+			          }
+			        },
+			        "d_date.data.trimestre": {
+			          "Target": {
+			            "Entity": "d_date.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.ano"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_date.data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_date.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "d_date_data_hierarquia_de_data_has_d_date_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_date.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_date.data.dia": {
+			          "Target": {
+			            "Entity": "d_date.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "d_date_data_hierarquia_de_data_has_d_date_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_date.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_date.data.mê": {
+			          "Target": {
+			            "Entity": "d_date.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "d_date_data_hierarquia_de_data_has_d_date_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_date.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_date.data.trimestre": {
+			          "Target": {
+			            "Entity": "d_date.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "d_date_data_hierarquia_de_data_has_d_date_data_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_date.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_date.data.ano": {
+			          "Target": {
+			            "Entity": "d_date.data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "d_date_data_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data": {
+			          "Target": {
+			            "Entity": "d_date.data"
+			          }
+			        },
+			        "d_date.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_date.data.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_mê_has_fdata_ano_nasc_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.mê": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.mê"
+			          }
+			        },
+			        "fdata.ano_nasc.dia": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.mê"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.dia"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.ano_nasc.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_trimestre_has_fdata_ano_nasc_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.trimestre"
+			          }
+			        },
+			        "fdata.ano_nasc.mê": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.mê"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_ano_has_fdata_ano_nasc_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.ano": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.ano"
+			          }
+			        },
+			        "fdata.ano_nasc.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.ano"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.ano_nasc.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_hierarquia_de_data_has_fdata_ano_nasc_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.ano_nasc.dia": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_hierarquia_de_data_has_fdata_ano_nasc_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.ano_nasc.mê": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_hierarquia_de_data_has_fdata_ano_nasc_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.ano_nasc.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_hierarquia_de_data_has_fdata_ano_nasc_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.ano_nasc.ano": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "fdata_ano_nasc_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.ano_nasc": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc"
+			          }
+			        },
+			        "fdata.ano_nasc.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.ano_nasc"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ano_nascs_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_mê_has_fdata_dt_encerra_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.mê": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.mê"
+			          }
+			        },
+			        "fdata.dt_encerra.dia": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.mê"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.dia"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.dt_encerra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_trimestre_has_fdata_dt_encerra_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.trimestre"
+			          }
+			        },
+			        "fdata.dt_encerra.mê": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.mê"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_ano_has_fdata_dt_encerra_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.ano": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.ano"
+			          }
+			        },
+			        "fdata.dt_encerra.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.ano"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.dt_encerra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_hierarquia_de_data_has_fdata_dt_encerra_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_encerra.dia": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_hierarquia_de_data_has_fdata_dt_encerra_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_encerra.mê": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_hierarquia_de_data_has_fdata_dt_encerra_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_encerra.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_hierarquia_de_data_has_fdata_dt_encerra_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_encerra.ano": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "fdata_dt_encerra_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_encerra": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra"
+			          }
+			        },
+			        "fdata.dt_encerra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_encerra"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_encerras_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_mê_has_fdata_dt_obito_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.mê": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.mê"
+			          }
+			        },
+			        "fdata.dt_obito.dia": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.mê"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.dia"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.dt_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_trimestre_has_fdata_dt_obito_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.trimestre"
+			          }
+			        },
+			        "fdata.dt_obito.mê": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.mê"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_ano_has_fdata_dt_obito_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.ano": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.ano"
+			          }
+			        },
+			        "fdata.dt_obito.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.ano"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fdata.dt_obito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_hierarquia_de_data_has_fdata_dt_obito_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_obito.dia": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_hierarquia_de_data_has_fdata_dt_obito_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_obito.mê": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_hierarquia_de_data_has_fdata_dt_obito_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_obito.trimestre": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_hierarquia_de_data_has_fdata_dt_obito_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.hierarquia_de_data"
+			          }
+			        },
+			        "fdata.dt_obito.ano": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "fdata_dt_obito_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata.dt_obito": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito"
+			          }
+			        },
+			        "fdata.dt_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata.dt_obito"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_obitos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "fdata_has_d_date": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "d_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_d_dates"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "fdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_fdatas"
+			        }
+			      ]
+			    },
+			    "fdata_has_d_municipality": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "d_municipality"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_d_municipalities"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "fdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_fdatas"
+			        }
+			      ]
+			    },
+			    "d_date_has_mes_e__ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.mes_e__ano": {
+			          "Target": {
+			            "Entity": "d_date.mes_e__ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.mes_e__ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_mes_e__anos"
+			        }
+			      ]
+			    },
+			    "d_date_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.dia": {
+			          "Target": {
+			            "Entity": "d_date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_dias"
+			        }
+			      ]
+			    },
+			    "d_date_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.trimestre": {
+			          "Target": {
+			            "Entity": "d_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_trimestres"
+			        }
+			      ]
+			    },
+			    "d_date_has_nome_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.nome_mê": {
+			          "Target": {
+			            "Entity": "d_date.nome_mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.nome_mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_nome_mê"
+			        }
+			      ]
+			    },
+			    "d_date_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.mê": {
+			          "Target": {
+			            "Entity": "d_date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_mê"
+			        }
+			      ]
+			    },
+			    "d_date_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.ano": {
+			          "Target": {
+			            "Entity": "d_date.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_anos"
+			        }
+			      ]
+			    },
+			    "d_date_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date": {
+			          "Target": {
+			            "Entity": "d_date"
+			          }
+			        },
+			        "d_date.data": {
+			          "Target": {
+			            "Entity": "d_date.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date"
+			            },
+			            "Object": {
+			              "Role": "d_date.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_dates_have_data"
+			        }
+			      ]
+			    },
+			    "d_municipality_has_cod": {
+			      "Binding": {
+			        "ConceptualEntity": "dMunicipalities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        },
+			        "d_municipality.cod": {
+			          "Target": {
+			            "Entity": "d_municipality.cod"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "d_municipality.cod"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_cods"
+			        }
+			      ]
+			    },
+			    "d_municipality_has_uf": {
+			      "Binding": {
+			        "ConceptualEntity": "dMunicipalities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        },
+			        "d_municipality.uf": {
+			          "Target": {
+			            "Entity": "d_municipality.uf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "d_municipality.uf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_ufs"
+			        }
+			      ]
+			    },
+			    "d_municipality_has_município__ibge": {
+			      "Binding": {
+			        "ConceptualEntity": "dMunicipalities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        },
+			        "d_municipality.município__ibge": {
+			          "Target": {
+			            "Entity": "d_municipality.município__ibge"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "d_municipality.município__ibge"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_município__ibges"
+			        }
+			      ]
+			    },
+			    "d_municipality_has_município__tom": {
+			      "Binding": {
+			        "ConceptualEntity": "dMunicipalities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        },
+			        "d_municipality.município__tom": {
+			          "Target": {
+			            "Entity": "d_municipality.município__tom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "d_municipality.município__tom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_município__toms"
+			        }
+			      ]
+			    },
+			    "d_municipality_has_código_do_município__ibge": {
+			      "Binding": {
+			        "ConceptualEntity": "dMunicipalities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        },
+			        "d_municipality.código_do_município__ibge": {
+			          "Target": {
+			            "Entity": "d_municipality.código_do_município__ibge"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "d_municipality.código_do_município__ibge"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_código_do_município__ibges"
+			        }
+			      ]
+			    },
+			    "d_municipality_has_código_do_município__tom": {
+			      "Binding": {
+			        "ConceptualEntity": "dMunicipalities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_municipality": {
+			          "Target": {
+			            "Entity": "d_municipality"
+			          }
+			        },
+			        "d_municipality.código_do_município__tom": {
+			          "Target": {
+			            "Entity": "d_municipality.código_do_município__tom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_municipality"
+			            },
+			            "Object": {
+			              "Role": "d_municipality.código_do_município__tom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_municipalities_have_código_do_município__toms"
+			        }
+			      ]
+			    },
+			    "fdata_has_entity__mensure_dead1": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "entity__mensure.dead1": {
+			          "Target": {
+			            "Entity": "entity__mensure.dead1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "entity__mensure.dead1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have__dead"
+			        }
+			      ]
+			    },
+			    "fdata_has_entity__mensure_dead": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "entity__mensure.dead": {
+			          "Target": {
+			            "Entity": "entity__mensure.dead"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "entity__mensure.dead"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dead"
+			        }
+			      ]
+			    },
+			    "fdata_has_entity__mensure_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "entity__mensure.quantity": {
+			          "Target": {
+			            "Entity": "entity__mensure.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "entity__mensure.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_quantity"
+			        }
+			      ]
+			    },
+			    "entity__mensure_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__mensure": {
+			          "Target": {
+			            "Entity": "entity__mensure"
+			          }
+			        },
+			        "entity__mensure.value": {
+			          "Target": {
+			            "Entity": "entity__mensure.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__mensure"
+			            },
+			            "Object": {
+			              "Role": "entity__mensure.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_mensures_have_values"
+			        }
+			      ]
+			    },
+			    "fdata_has_class_fin_form": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.class_fin_form": {
+			          "Target": {
+			            "Entity": "fdata.class_fin_form"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.class_fin_form"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_class_fin_forms"
+			        }
+			      ]
+			    },
+			    "fdata_has_faixa_etaria": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.faixa_etaria": {
+			          "Target": {
+			            "Entity": "fdata.faixa_etaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.faixa_etaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_faixa_etarias"
+			        }
+			      ]
+			    },
+			    "fdata_has_cod": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cod": {
+			          "Target": {
+			            "Entity": "fdata.cod"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cod"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cods"
+			        }
+			      ]
+			    },
+			    "fdata_has_nu_idadea_n_calc": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.nu_idadea_n_calc": {
+			          "Target": {
+			            "Entity": "fdata.nu_idadea_n_calc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.nu_idadea_n_calc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_nu_idadea_n_calcs"
+			        }
+			      ]
+			    },
+			    "fdata_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id": {
+			          "Target": {
+			            "Entity": "fdata.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Name": {
+			              "Role": "fdata.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_fdatas"
+			        }
+			      ]
+			    },
+			    "fdata_has_dt_digita": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.dt_digita": {
+			          "Target": {
+			            "Entity": "fdata.dt_digita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_digita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dt_digitas"
+			        }
+			      ]
+			    },
+			    "fdata_has_ano_nasc": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.ano_nasc": {
+			          "Target": {
+			            "Entity": "fdata.ano_nasc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.ano_nasc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_ano_nascs"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_unidade": {
+			          "Target": {
+			            "Entity": "fdata.id_unidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_unidades"
+			        }
+			      ]
+			    },
+			    "fdata_has_tpuninot": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.tpuninot": {
+			          "Target": {
+			            "Entity": "fdata.tpuninot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.tpuninot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_tpuninots"
+			        }
+			      ]
+			    },
+			    "fdata_has_tp_sistema": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.tp_sistema": {
+			          "Target": {
+			            "Entity": "fdata.tp_sistema"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.tp_sistema"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_tp_sistemas"
+			        }
+			      ]
+			    },
+			    "fdata_has_flxrecebi": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.flxrecebi": {
+			          "Target": {
+			            "Entity": "fdata.flxrecebi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.flxrecebi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_flxrecebis"
+			        }
+			      ]
+			    },
+			    "fdata_has_cs_flxret": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cs_flxret": {
+			          "Target": {
+			            "Entity": "fdata.cs_flxret"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cs_flxret"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cs_flxrets"
+			        }
+			      ]
+			    },
+			    "fdata_has_dt_encerra": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.dt_encerra": {
+			          "Target": {
+			            "Entity": "fdata.dt_encerra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_encerra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dt_encerras"
+			        }
+			      ]
+			    },
+			    "fdata_has_dt_obito": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.dt_obito": {
+			          "Target": {
+			            "Entity": "fdata.dt_obito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_obito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dt_obitos"
+			        }
+			      ]
+			    },
+			    "fdata_has_evolucao": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.evolucao": {
+			          "Target": {
+			            "Entity": "fdata.evolucao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.evolucao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_evolucaos"
+			        }
+			      ]
+			    },
+			    "fdata_has_doenca_tra": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.doenca_tra": {
+			          "Target": {
+			            "Entity": "fdata.doenca_tra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.doenca_tra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_doenca_tras"
+			        }
+			      ]
+			    },
+			    "fdata_has_comuninf": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.comuninf": {
+			          "Target": {
+			            "Entity": "fdata.comuninf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.comuninf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_comuninfs"
+			        }
+			      ]
+			    },
+			    "fdata_has_copaisinf": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.copaisinf": {
+			          "Target": {
+			            "Entity": "fdata.copaisinf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.copaisinf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_copaisinfs"
+			        }
+			      ]
+			    },
+			    "fdata_has_coufinf": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.coufinf": {
+			          "Target": {
+			            "Entity": "fdata.coufinf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.coufinf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_coufinfs"
+			        }
+			      ]
+			    },
+			    "fdata_has_tpautocto": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.tpautocto": {
+			          "Target": {
+			            "Entity": "fdata.tpautocto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.tpautocto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_tpautoctos"
+			        }
+			      ]
+			    },
+			    "fdata_has_criterio": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.criterio": {
+			          "Target": {
+			            "Entity": "fdata.criterio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.criterio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_criterios"
+			        }
+			      ]
+			    },
+			    "fdata_has_classi_fin": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.classi_fin": {
+			          "Target": {
+			            "Entity": "fdata.classi_fin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.classi_fin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_classi_fins"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_ocupa_n": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_ocupa_n": {
+			          "Target": {
+			            "Entity": "fdata.id_ocupa_n"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_ocupa_n"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_ocupa_Ns"
+			        }
+			      ]
+			    },
+			    "fdata_has_dt_invest": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.dt_invest": {
+			          "Target": {
+			            "Entity": "fdata.dt_invest"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_invest"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dt_invest"
+			        }
+			      ]
+			    },
+			    "fdata_has_in_vinculum": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.in_vinculum": {
+			          "Target": {
+			            "Entity": "fdata.in_vinculum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.in_vinculum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_in_vinculum"
+			        }
+			      ]
+			    },
+			    "fdata_has_nduplic_n": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.nduplic_n": {
+			          "Target": {
+			            "Entity": "fdata.nduplic_n"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.nduplic_n"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_nduplic_Ns"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_pais": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_pais": {
+			          "Target": {
+			            "Entity": "fdata.id_pais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_pais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_paises"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_rg_resi": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_rg_resi": {
+			          "Target": {
+			            "Entity": "fdata.id_rg_resi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_rg_resi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_rg_resis"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_mn_resi": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_mn_resi": {
+			          "Target": {
+			            "Entity": "fdata.id_mn_resi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_mn_resi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_mn_resis"
+			        }
+			      ]
+			    },
+			    "fdata_has_sg_uf": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.sg_uf": {
+			          "Target": {
+			            "Entity": "fdata.sg_uf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.sg_uf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_sg_ufs"
+			        }
+			      ]
+			    },
+			    "fdata_has_cs_escol_n": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cs_escol_n": {
+			          "Target": {
+			            "Entity": "fdata.cs_escol_n"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cs_escol_n"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cs_escol_Ns"
+			        }
+			      ]
+			    },
+			    "fdata_has_cs_raca": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cs_raca": {
+			          "Target": {
+			            "Entity": "fdata.cs_raca"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cs_raca"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cs_racas"
+			        }
+			      ]
+			    },
+			    "fdata_has_cs_gestant": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cs_gestant": {
+			          "Target": {
+			            "Entity": "fdata.cs_gestant"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cs_gestant"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cs_gestants"
+			        }
+			      ]
+			    },
+			    "fdata_has_cs_sexo": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cs_sexo": {
+			          "Target": {
+			            "Entity": "fdata.cs_sexo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cs_sexo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cs_sexos"
+			        }
+			      ]
+			    },
+			    "fdata_has_nu_idade_n": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.nu_idade_n": {
+			          "Target": {
+			            "Entity": "fdata.nu_idade_n"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.nu_idade_n"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_nu_idade_Ns"
+			        }
+			      ]
+			    },
+			    "fdata_has_sem_pri": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.sem_pri": {
+			          "Target": {
+			            "Entity": "fdata.sem_pri"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.sem_pri"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_sem_pri"
+			        }
+			      ]
+			    },
+			    "fdata_has_dt_sin_pri": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.dt_sin_pri": {
+			          "Target": {
+			            "Entity": "fdata.dt_sin_pri"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_sin_pri"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dt_sin_pri"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_regiona": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_regiona": {
+			          "Target": {
+			            "Entity": "fdata.id_regiona"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_regiona"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_regionas"
+			        }
+			      ]
+			    },
+			    "fdata_has_sg_uf_not": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.sg_uf_not": {
+			          "Target": {
+			            "Entity": "fdata.sg_uf_not"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.sg_uf_not"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_sg_uf_nots"
+			        }
+			      ]
+			    },
+			    "fdata_has_sem_not": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.sem_not": {
+			          "Target": {
+			            "Entity": "fdata.sem_not"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.sem_not"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_sem_nots"
+			        }
+			      ]
+			    },
+			    "fdata_has_dt_notific": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.dt_notific": {
+			          "Target": {
+			            "Entity": "fdata.dt_notific"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.dt_notific"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_dt_notifics"
+			        }
+			      ]
+			    },
+			    "fdata_has_cs_suspeit": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.cs_suspeit": {
+			          "Target": {
+			            "Entity": "fdata.cs_suspeit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.cs_suspeit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_cs_suspeits"
+			        }
+			      ]
+			    },
+			    "fdata_has_id_agravo": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.id_agravo": {
+			          "Target": {
+			            "Entity": "fdata.id_agravo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.id_agravo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_id_agravos"
+			        }
+			      ]
+			    },
+			    "fdata_has_tp_not": {
+			      "Binding": {
+			        "ConceptualEntity": "fdata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fdata": {
+			          "Target": {
+			            "Entity": "fdata"
+			          }
+			        },
+			        "fdata.tp_not": {
+			          "Target": {
+			            "Entity": "fdata.tp_not"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fdata"
+			            },
+			            "Object": {
+			              "Role": "fdata.tp_not"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fdatas_have_tp_nots"
+			        }
+			      ]
+			    },
+			    "d_date_data_mê_has_d_date_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_date.data.mê": {
+			          "Target": {
+			            "Entity": "d_date.data.mê"
+			          }
+			        },
+			        "d_date.data.dia": {
+			          "Target": {
+			            "Entity": "d_date.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.mê"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_date.data.dia"
+			            },
+			            "Object": {
+			              "Role": "d_date.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_date.data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_date.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,73 @@
+/// Dimensão de municípios do Brasil por código IBGE de seis dígitos, incluindo membro Não informado.
+table dMunicipalities
+	lineageTag: 29171ba7-1774-4a8b-9b2d-ee9d037f7d92
+
+	column 'CÓDIGO DO MUNICÍPIO - TOM'
+		dataType: string
+		lineageTag: ffbcb56e-3d28-46d9-b1c8-09c3f9feb36b
+		summarizeBy: none
+		sourceColumn: CÓDIGO DO MUNICÍPIO - TOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CÓDIGO DO MUNICÍPIO - IBGE'
+		dataType: string
+		lineageTag: 1d019022-e4c4-46ff-b652-07eabd2d20b4
+		summarizeBy: none
+		sourceColumn: CÓDIGO DO MUNICÍPIO - IBGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MUNICÍPIO - TOM'
+		dataType: string
+		lineageTag: 3aafbd4e-b7a8-42e8-acf5-66054a089aae
+		summarizeBy: none
+		sourceColumn: MUNICÍPIO - TOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MUNICÍPIO - IBGE'
+		dataType: string
+		lineageTag: 62eaa5d3-6bfd-4129-b3dc-d4ad47ed83f4
+		summarizeBy: none
+		sourceColumn: MUNICÍPIO - IBGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column UF
+		dataType: string
+		lineageTag: 6e53be9e-8923-4c86-9baa-3ba9a2cd408f
+		summarizeBy: none
+		sourceColumn: UF
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cod
+		dataType: string
+		lineageTag: ab061c36-c1f5-4d58-b6b0-d28df5651b5b
+		summarizeBy: none
+		sourceColumn: Cod
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dMunicipalities = m
+		mode: import
+		queryGroup: Dim
+		source =
+				let
+				  Origem = Csv.Document(File.Contents("C:\Users\Usuario\Documents\Projetos\PPS Final\data\auxiliares\municipios.csv"), [Delimiter = ";", Columns = 5, Encoding = 65000]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Origem, [PromoteAllScalars=true]),
+				    #"Personalização Adicionada" = Table.AddColumn(#"Cabeçalhos Promovidos", "Cod", each Text.Start( [#"CÓDIGO DO MUNICÍPIO - IBGE"], 6 ), Int64.Type ),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Personalização Adicionada",{{"Cod", type text}}),
+				    ComIgnorado = Table.InsertRows(
+				        #"Tipo Alterado",
+				        0,
+				        {[#"CÓDIGO DO MUNICÍPIO - TOM" = null, #"CÓDIGO DO MUNICÍPIO - IBGE" = null, #"MUNICÍPIO - TOM" = "Não informado", #"MUNICÍPIO - IBGE" = "Não informado", UF = "NI", Cod = "000000"]}
+				    )
+				in
+				    ComIgnorado
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

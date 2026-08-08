@@ -1,0 +1,28 @@
+# Arquivos locais gerados pelo Power BI
+**/.pbi/
+**/.pbi/**
+
+# Microdados anuais: baixar da fonte oficial
+data/sinan_zika/ZIKABR*.csv
+data/auxiliares/POP*.xls
+data/auxiliares/POP*.xlsx
+
+# Binários e exportações locais
+*.pbix
+*.pbit
+*.tmp
+*.bak
+
+# Python e notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,111 @@
+/// Resultado da regressão linear em Python dos casos mensais de Zika nos últimos 24 meses por UF.
+table TendenciaPython
+	lineageTag: 7425f7f2-f605-4f16-887b-84f2931e7a3a
+
+	/// Código IBGE da UF.
+	column Cod_UF
+		dataType: string
+		isHidden
+		lineageTag: 0a2998e5-fc30-4fcf-abf6-3b1a41062e06
+		sourceColumn: Cod_UF
+
+	/// Primeiro mês da janela de 24 meses.
+	column PeriodoInicial
+		dataType: dateTime
+		formatString: dd/MM/yyyy
+		lineageTag: 8c71aeec-a957-4b46-a69d-dfc331caad34
+		summarizeBy: none
+		sourceColumn: PeriodoInicial
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Último mês da janela de 24 meses.
+	column PeriodoFinal
+		dataType: dateTime
+		formatString: dd/MM/yyyy
+		lineageTag: 58a8348b-196f-4b08-b382-73dac8e3f920
+		summarizeBy: none
+		sourceColumn: PeriodoFinal
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column Meses
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2bef6961-eeda-48ee-a810-d8c22a029338
+		sourceColumn: Meses
+
+	/// Casos prováveis na janela analisada.
+	column CasosPeriodo
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1489e340-8e5a-4dff-a031-0cd7f6a60072
+		sourceColumn: CasosPeriodo
+
+	/// Média mensal de casos na janela analisada.
+	column MediaMensal
+		dataType: double
+		formatString: 0.0
+		lineageTag: 531bc01e-33dd-437d-bb1f-6a99efd7c820
+		sourceColumn: MediaMensal
+
+	/// Coeficiente angular da regressão linear, em casos por mês.
+	column InclinacaoMensal
+		dataType: double
+		formatString: +0.00;-0.00;0.00
+		lineageTag: 2aadad9e-5923-4538-8b5b-b82a8ea9f72c
+		sourceColumn: InclinacaoMensal
+
+	/// Inclinação mensal dividida pela média mensal.
+	column VariacaoMensalRelativa
+		dataType: double
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: f53370ff-6b28-4ca0-9708-b85d4f0bfb81
+		sourceColumn: VariacaoMensalRelativa
+
+	/// Coeficiente de determinação da regressão linear.
+	column R2
+		dataType: double
+		formatString: 0.000
+		lineageTag: a28e4f31-129d-491a-ac55-dbae6ac081a4
+		sourceColumn: R2
+
+	/// Classificação: Crescente, Decrescente ou Estável.
+	column Tendencia
+		dataType: string
+		lineageTag: 74a3ee1a-50b3-4742-b356-1344d65c8728
+		sourceColumn: Tendencia
+
+	partition TendenciaPython = m
+		mode: import
+		source =
+				let
+				    Origem = Csv.Document(
+				        File.Contents("C:\Users\Usuario\Documents\Projetos\PPS Final\data\derivados\tendencia_zika_uf.csv"),
+				        [Delimiter = ",", Columns = 10, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				    ),
+				    Cabecalhos = Table.PromoteHeaders(Origem, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(
+				        Cabecalhos,
+				        {
+				            {"Cod_UF", type text},
+				            {"PeriodoInicial", type date},
+				            {"PeriodoFinal", type date},
+				            {"Meses", Int64.Type},
+				            {"CasosPeriodo", Int64.Type},
+				            {"MediaMensal", type number},
+				            {"InclinacaoMensal", type number},
+				            {"VariacaoMensalRelativa", type number},
+				            {"R2", type number},
+				            {"Tendencia", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    Tipos
+

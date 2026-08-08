@@ -1,0 +1,115 @@
+/// Fato agregado mensal para comparação entre Zika, Chikungunya e Febre Amarela.
+table Arboviroses
+	lineageTag: cc7d8f7f-dc65-4bb7-85d7-10ab58fd4bbb
+
+	column Doença
+		dataType: string
+		lineageTag: 9bc99c28-d290-4323-81ae-506296f9aa67
+		summarizeBy: none
+		sourceColumn: Doença
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 8a43043a-947e-410e-a0a3-04478e61b8b0
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b7b42aa-019c-48d8-b3a5-d4002356a3c3
+		summarizeBy: sum
+		sourceColumn: Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 2ae8997a-5e18-49ef-a6d8-350f8e3c8521
+		summarizeBy: none
+		sourceColumn: Data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Cod_UF
+		dataType: string
+		lineageTag: f5a924b7-f4ef-4f55-89d0-1c713add3765
+		summarizeBy: none
+		sourceColumn: Cod_UF
+
+		annotation SummarizationSetBy = Automatic
+
+	column Casos
+		dataType: int64
+		formatString: #,0
+		lineageTag: 292a8e17-4e2b-427c-ac94-69de9b4b7e2e
+		summarizeBy: sum
+		sourceColumn: Casos
+
+		annotation SummarizationSetBy = Automatic
+
+	column Obitos
+		dataType: int64
+		formatString: #,0
+		lineageTag: ccb28dcc-b20a-4ebd-99b9-993621ea7ff6
+		summarizeBy: sum
+		sourceColumn: Obitos
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Arboviroses = m
+		mode: import
+		queryGroup: Dim
+		source =
+				let
+				    SnapshotRaw = Csv.Document(
+				        File.Contents("C:\Users\Usuario\Documents\Projetos\PPS Final\data\derivados\arboviroses_comparacao_snapshot.csv"),
+				        [Delimiter = ",", Columns = 6, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				    ),
+				    SnapshotHeaders = Table.PromoteHeaders(SnapshotRaw, [PromoteAllScalars = true]),
+				    SnapshotTypes = Table.TransformColumnTypes(
+				        SnapshotHeaders,
+				        {{"Doenca", type text}, {"Ano", Int64.Type}, {"Mes", Int64.Type}, {"Cod_UF", type text}, {"Casos", Int64.Type}, {"Obitos", Int64.Type}}
+				    ),
+				    Snapshot = Table.RenameColumns(SnapshotTypes, {{"Doenca", "Doença"}, {"Mes", "Mês"}}),
+				
+				    ZikaBase = Table.SelectColumns(fdata, {"DT_NOTIFIC", "SG_UF", "CLASS_FIN_FORM", "EVOLUCAO"}),
+				    ZikaAno = Table.AddColumn(ZikaBase, "Ano", each if [DT_NOTIFIC] = null then null else Date.Year(Date.From([DT_NOTIFIC])), Int64.Type),
+				    ZikaMes = Table.AddColumn(ZikaAno, "Mês", each if [DT_NOTIFIC] = null then null else Date.Month(Date.From([DT_NOTIFIC])), Int64.Type),
+				    ZikaFiltrada = Table.SelectRows(
+				        ZikaMes,
+				        each [Ano] <> null and [Mês] <> null and [CLASS_FIN_FORM] <> "Descartado"
+				    ),
+				    ZikaObito = Table.AddColumn(ZikaFiltrada, "Obitos", each if Text.From([EVOLUCAO]) = "2" then 1 else 0, Int64.Type),
+				    ZikaUF = Table.AddColumn(
+				        ZikaObito,
+				        "Cod_UF",
+				        each if [SG_UF] = null then null else Text.PadStart(Text.From([SG_UF]), 2, "0"),
+				        type text
+				    ),
+				    ZikaValida = Table.SelectRows(ZikaUF, each [Cod_UF] <> null and [Cod_UF] <> ""),
+				    ZikaAgrupada = Table.Group(
+				        ZikaValida,
+				        {"Ano", "Mês", "Cod_UF"},
+				        {{"Casos", each Table.RowCount(_), Int64.Type}, {"Obitos", each List.Sum([Obitos]), Int64.Type}}
+				    ),
+				    Zika = Table.AddColumn(ZikaAgrupada, "Doença", each "Zika", type text),
+				
+				    Combinado = Table.Combine({Zika, Snapshot}),
+				    ComData = Table.AddColumn(Combinado, "Data", each #date([Ano], [Mês], 1), type date),
+				    Final = Table.SelectColumns(ComData, {"Doença", "Ano", "Mês", "Data", "Cod_UF", "Casos", "Obitos"})
+				in
+				    Final
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

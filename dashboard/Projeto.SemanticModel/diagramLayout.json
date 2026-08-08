@@ -1,0 +1,129 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 361.0683760683761,
+            "y": 617.37606837606836
+          },
+          "nodeIndex": "fdata",
+          "nodeLineageTag": "cdee36f7-93fb-4073-aaa3-8525c67d4127",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 683
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 185.11111111111114
+          },
+          "nodeIndex": "dMunicipalities",
+          "nodeLineageTag": "29171ba7-1774-4a8b-9b2d-ee9d037f7d92",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "dDates",
+          "nodeLineageTag": "06f55001-8a17-4bf0-82d6-042987a79049",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 224
+        },
+        {
+          "location": {
+            "x": 898.55555555555554,
+            "y": 296.68803418803418
+          },
+          "nodeIndex": "Completude",
+          "nodeLineageTag": "388d0992-1b16-4098-92fe-20fd04f3bb80",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1182.5555555555557,
+            "y": 272.68803418803418
+          },
+          "nodeIndex": "Populacao",
+          "nodeLineageTag": "e09c923d-3346-4ea0-b9b9-a649dd6f53d6",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1466.5555555555557,
+            "y": 236.68803418803418
+          },
+          "nodeIndex": "Arboviroses",
+          "nodeLineageTag": "cc7d8f7f-dc65-4bb7-85d7-10ab58fd4bbb",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1750.5555555555557,
+            "y": 210.68803418803418
+          },
+          "nodeIndex": "TendenciaPython",
+          "nodeLineageTag": "7425f7f2-f605-4f16-887b-84f2931e7a3a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 614.55555555555554,
+            "y": 15.418803418803421
+          },
+          "nodeIndex": "_Medidas",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 200
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 98.319327731092429,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

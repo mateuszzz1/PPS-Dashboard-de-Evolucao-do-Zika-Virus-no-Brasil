@@ -1,0 +1,10 @@
+* text=auto
+*.tmdl text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.png binary
+*.pdf binary
+*.csv text eol=lf

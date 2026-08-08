@@ -1,0 +1,27 @@
+/// Tabela auxiliar de indicadores de ausência e completude dos campos prioritários.
+table Completude
+	lineageTag: 388d0992-1b16-4098-92fe-20fd04f3bb80
+
+	column Campo
+		dataType: string
+		lineageTag: 9812b691-0bab-4d87-848e-ef55d43aed23
+		summarizeBy: none
+		sourceColumn: [Campo]
+
+		annotation SummarizationSetBy = Automatic
+
+	column '% Ausente'
+		dataType: double
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 580df83a-d455-4a1c-9518-831af4b6ee38
+		summarizeBy: sum
+		sourceColumn: [% Ausente]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Completude = calculated
+		mode: import
+		source = VAR t = COUNTROWS(fdata) RETURN UNION( ROW("Campo","Local provável de infecção","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[TPAUTOCTO])||fdata[TPAUTOCTO]="")),t)), ROW("Campo","Evolução do caso","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[EVOLUCAO])||fdata[EVOLUCAO]="")),t)), ROW("Campo","Critério de confirmação","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[CRITERIO])||fdata[CRITERIO]="")),t)), ROW("Campo","Escolaridade","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[CS_ESCOL_N])||fdata[CS_ESCOL_N]="")),t)), ROW("Campo","Raça/cor","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[CS_RACA])||fdata[CS_RACA]="")),t)), ROW("Campo","Data de encerramento","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[DT_ENCERRA]))),t)), ROW("Campo","Classificação final","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[CLASSI_FIN])||fdata[CLASSI_FIN]="")),t)), ROW("Campo","Município de notificação","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[ID_MUNICIP])||fdata[ID_MUNICIP]="")),t)), ROW("Campo","UF de notificação","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[SG_UF_NOT])||fdata[SG_UF_NOT]="")),t)), ROW("Campo","Situação gestacional","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[CS_GESTANT])||fdata[CS_GESTANT]="")),t)), ROW("Campo","Sexo","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[CS_SEXO])||fdata[CS_SEXO]="")),t)), ROW("Campo","Idade","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[NU_IDADE_N])||fdata[NU_IDADE_N]="")),t)), ROW("Campo","Início dos sintomas","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[DT_SIN_PRI])||fdata[DT_SIN_PRI]="")),t)), ROW("Campo","Data de notificação","% Ausente",DIVIDE(COUNTROWS(FILTER(fdata,ISBLANK(fdata[DT_NOTIFIC]))),t)) )
+

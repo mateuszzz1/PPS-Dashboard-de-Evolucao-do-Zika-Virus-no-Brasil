@@ -1,0 +1,31 @@
+/// Modelo analítico de vigilância epidemiológica de Zika no Brasil, com granularidade temporal e geográfica por residência. Fonte principal: dados abertos do Ministério da Saúde/SINAN; população residente: estimativa IBGE 2025.
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup Dim
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["fdata","fx","dMunicipalities","dDates","Populacao","Arboviroses","TendenciaPython"]
+
+annotation PBI_ProTooling = ["DevMode","MCP-PBIModeling"]
+
+ref table fdata
+ref table _Medidas
+ref table dMunicipalities
+ref table dDates
+ref table Completude
+ref table Populacao
+ref table Arboviroses
+ref table TendenciaPython
+
+ref cultureInfo pt-BR
+

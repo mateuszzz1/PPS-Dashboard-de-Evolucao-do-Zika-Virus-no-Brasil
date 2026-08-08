@@ -1,0 +1,28 @@
+Cod_UF,Sigla,Estado,Regiao,Habitantes
+11,RO,Rondônia,Norte,1751950
+12,AC,Acre,Norte,884372
+13,AM,Amazonas,Norte,4321616
+14,RR,Roraima,Norte,738772
+15,PA,Pará,Norte,8711196
+16,AP,Amapá,Norte,806517
+17,TO,Tocantins,Norte,1586859
+21,MA,Maranhão,Nordeste,7018211
+22,PI,Piauí,Nordeste,3384547
+23,CE,Ceará,Nordeste,9268836
+24,RN,Rio Grande do Norte,Nordeste,3455236
+25,PB,Paraíba,Nordeste,4164468
+26,PE,Pernambuco,Nordeste,9562007
+27,AL,Alagoas,Nordeste,3220848
+28,SE,Sergipe,Nordeste,2299425
+29,BA,Bahia,Nordeste,14870907
+31,MG,Minas Gerais,Sudeste,21393441
+32,ES,Espírito Santo,Sudeste,4126854
+33,RJ,Rio de Janeiro,Sudeste,17223547
+35,SP,São Paulo,Sudeste,46081801
+41,PR,Paraná,Sul,11890517
+42,SC,Santa Catarina,Sul,8187029
+43,RS,Rio Grande do Sul,Sul,11233263
+50,MS,Mato Grosso do Sul,Centro-Oeste,2924631
+51,MT,Mato Grosso,Centro-Oeste,3893659
+52,GO,Goiás,Centro-Oeste,7423629
+53,DF,Distrito Federal,Centro-Oeste,2996899

@@ -1,0 +1,73 @@
+/// Dimensão de UF e região com população residente estimada pelo IBGE para 2025, incluindo membro Não informado.
+table Populacao
+	lineageTag: ca14ec3d-929e-454c-b2a0-f77d3913ae88
+
+	column Cod_UF
+		dataType: string
+		lineageTag: 0a938a6a-7fa6-4fab-ad68-ea962e96b573
+		summarizeBy: none
+		sourceColumn: Cod_UF
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sigla
+		dataType: string
+		lineageTag: 6cf61e30-4a0e-407e-b2e9-e4b15f2e0b9d
+		summarizeBy: none
+		sourceColumn: Sigla
+
+		annotation SummarizationSetBy = Automatic
+
+	column Região
+		dataType: string
+		lineageTag: 920d75d5-395a-4ae0-ad6d-fc80956314ad
+		summarizeBy: none
+		sourceColumn: Região
+
+		annotation SummarizationSetBy = Automatic
+
+	column Habitantes
+		dataType: int64
+		formatString: #,0
+		lineageTag: d7dcc3e8-0f84-4ca7-9640-2f5fa1434b72
+		summarizeBy: sum
+		sourceColumn: Habitantes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado
+		dataType: string
+		lineageTag: 0dbe231e-da47-4f2e-adbd-3300bddccf0a
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: Estado
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Populacao = m
+		mode: import
+		queryGroup: Dim
+		source =
+				let
+				    Origem = Csv.Document(
+				        File.Contents("C:\Users\Usuario\Documents\Projetos\PPS Final\data\auxiliares\populacao_ibge_2025.csv"),
+				        [Delimiter = ",", Columns = 5, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				    ),
+				    Cabecalhos = Table.PromoteHeaders(Origem, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(
+				        Cabecalhos,
+				        {{"Cod_UF", type text}, {"Sigla", type text}, {"Estado", type text}, {"Regiao", type text}, {"Habitantes", Int64.Type}}
+				    ),
+				    Final = Table.RenameColumns(Tipos, {{"Regiao", "Região"}}),
+				    ComIgnorado = Table.InsertRows(
+				        Final,
+				        0,
+				        {[Cod_UF = "00", Sigla = "NI", Estado = "Não informado", Região = "Não informado", Habitantes = null]}
+				    )
+				in
+				    ComIgnorado
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

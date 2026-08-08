@@ -1,0 +1,17 @@
+expression fx = ```
+		(files as binary ) as table => 
+		let
+		    arquivo = files,
+		    csvImport = Csv.Document(files,[Delimiter=",", Columns=38, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    head = Table.PromoteHeaders(csvImport, [PromoteAllScalars=true]),
+		    removeColumns = Table.RemoveColumns(head,{"NU_ANO"}),
+		    typechange = Table.TransformColumnTypes( removeColumns ,{{"DT_ENCERRA", type date}, {"DT_NOTIFIC", type date}})
+		in
+		    typechange
+		```
+	lineageTag: b585d6d1-1aba-4305-903a-477f8006edb4
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Function
+

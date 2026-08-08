@@ -1,0 +1,344 @@
+/// Tabela central de medidas DAX do relatório.
+table _Medidas
+	lineageTag: e53a4423-eb4d-4344-a709-918ab1481372
+
+	/// Medida técnica legada; mantida apenas para compatibilidade.
+	measure Quantity = COUNTROWS(fdata)
+		formatString: #,0
+		isHidden
+		lineageTag: fb2d7efe-e58c-442f-b04b-7b115973651a
+
+	/// Medida técnica legada; mantida apenas para compatibilidade.
+	measure Dead = ```
+			CALCULATE([Quantity], NOT ISBLANK(fdata[DT_OBITO] )) 
+			```
+		formatString: #,0
+		isHidden
+		lineageTag: bc593405-e180-4410-bb86-57d25d0ff1af
+
+	/// Medida técnica legada; mantida apenas para compatibilidade.
+	measure '% Dead' = DIVIDE([Dead], [Quantity], 0)
+		formatString: 0.00%;-0.00%;0.00%
+		isHidden
+		lineageTag: dbe4dd9c-4305-46c9-b625-0a1fce99b01c
+
+	measure Notificações = COUNTROWS(fdata)
+		formatString: #,0
+		displayFolder: 01 Volume
+		lineageTag: 265c6204-54ad-44ce-a0e6-4e3c878f737b
+
+	measure Confirmados = CALCULATE([Quantity], fdata[CLASS_FIN_FORM]="Confirmado")
+		formatString: #,0
+		displayFolder: 02 Classificação
+		lineageTag: 38e04a7d-194f-4841-8ba5-91dca8d86d67
+
+	measure Descartados = CALCULATE([Quantity], fdata[CLASS_FIN_FORM]="Descartado")
+		formatString: #,0
+		displayFolder: 02 Classificação
+		lineageTag: 1c63f65f-f121-48f0-a677-080a72a296b7
+
+	measure 'Confirmação Laboratorial' = CALCULATE([Quantity], fdata[Critério de Confirmação]="Laboratorial")
+		formatString: #,0
+		displayFolder: 02 Classificação
+		lineageTag: df9ad34a-2274-4902-a7f5-e4819dd85c1a
+
+	measure 'Confirmação Clínico-Epidemiológica' = CALCULATE([Quantity], fdata[Critério de Confirmação]="Clínico-epidemiológico")
+		formatString: #,0
+		displayFolder: 02 Classificação
+		lineageTag: b99ca2a7-f242-49bc-85ed-5ce7273109e8
+
+	measure 'Notificações Femininas' = CALCULATE([Quantity], fdata[CS_SEXO]="F")
+		formatString: #,0
+		displayFolder: 03 Demografia
+		lineageTag: 56500235-b84f-45b0-a401-9fa0b00db002
+
+	measure 'Notificações Masculinas' = CALCULATE([Quantity], fdata[CS_SEXO]="M")
+		formatString: #,0
+		displayFolder: 03 Demografia
+		lineageTag: dd75ae15-5b33-4ba3-a38d-2bd2799301ef
+
+	measure Gestantes = CALCULATE([Quantity], fdata[CS_GESTANT] IN {"1","2","3","4"}, fdata[CS_SEXO]="F")
+		formatString: #,0
+		displayFolder: 03 Demografia
+		lineageTag: afd9d198-c36f-420f-bd43-e17c0757e2df
+
+	measure 'Idade Média' = AVERAGEX(FILTER(fdata, NOT(ISBLANK(fdata[NU_IDADE_N]))), fdata[NU_IDADEA_N_CALC])
+		formatString: 0.0
+		displayFolder: 03 Demografia
+		lineageTag: 26c0f7f7-2343-4fe9-8b41-2d297e1695eb
+
+	measure 'Idade Mediana' = MEDIANX(FILTER(fdata, NOT(ISBLANK(fdata[NU_IDADE_N]))), fdata[NU_IDADEA_N_CALC])
+		formatString: 0.0
+		displayFolder: 03 Demografia
+		lineageTag: 9c079f8a-bd6f-48ad-b6dc-3dfcb5348725
+
+	measure 'Óbitos pelo Agravo' = CALCULATE([Quantity], fdata[EVOLUCAO]="2")
+		formatString: #,0
+		displayFolder: 04 Desfecho
+		lineageTag: 8b677a27-a2b6-4f4b-bdc4-952bdd1bfe62
+
+	measure Curas = CALCULATE([Quantity], fdata[EVOLUCAO]="1")
+		formatString: #,0
+		displayFolder: 04 Desfecho
+		lineageTag: 019ddce8-f9ca-4a30-9b80-abb2de755309
+
+	measure 'Notificações Classificadas' = [Confirmados] + [Descartados]
+		formatString: #,0
+		displayFolder: 02 Classificação
+		lineageTag: 9515fcfe-de67-47ee-886b-0ddb13481cf8
+
+	measure '% Confirmação' = DIVIDE([Confirmados], [Notificações Classificadas], 0)
+		formatString: 0.00%
+		displayFolder: 02 Classificação
+		lineageTag: 08a1f928-b6f2-4e9e-9a86-dae90da9bec1
+
+	measure '% Confirmação (sobre Total)' = DIVIDE([Confirmados], [Quantity], 0)
+		formatString: 0.00%
+		displayFolder: 02 Classificação
+		lineageTag: b97f6946-9dd6-404c-a63e-21263fbd850f
+
+	measure '% Critério Laboratorial' = DIVIDE([Confirmação Laboratorial], [Confirmação Laboratorial] + [Confirmação Clínico-Epidemiológica], 0)
+		formatString: 0.00%
+		displayFolder: 02 Classificação
+		lineageTag: d4c248d6-7f32-47e6-9402-c0380cf84539
+
+	measure '% Feminino' = DIVIDE([Notificações Femininas], [Quantity], 0)
+		formatString: 0.00%
+		displayFolder: 03 Demografia
+		lineageTag: c2204811-4b63-4dd8-a72b-267bc500d4a0
+
+	measure '% Masculino' = DIVIDE([Notificações Masculinas], [Quantity], 0)
+		formatString: 0.00%
+		displayFolder: 03 Demografia
+		lineageTag: d09e08aa-9a03-4d76-802e-876e0b6a3fee
+
+	measure '% Gestantes (entre Mulheres)' = DIVIDE([Gestantes], [Notificações Femininas], 0)
+		formatString: 0.00%
+		displayFolder: 03 Demografia
+		lineageTag: 1c53adc4-51fb-4b6c-8544-9263fd70b0b7
+
+	measure '% Letalidade' = DIVIDE([Óbitos pelo Agravo], [Quantity], 0)
+		formatString: 0.000%
+		displayFolder: 04 Desfecho
+		lineageTag: dc413be9-35d0-439f-8cdc-387bc4ec0bf2
+
+	measure '% Ignorado Raça/Cor' = DIVIDE(CALCULATE([Quantity], fdata[CS_RACA]="9"), [Quantity], 0)
+		formatString: 0.00%
+		displayFolder: 05 Qualidade dos Dados
+		lineageTag: 52bb3342-d448-4d5a-8215-c2e33bd20022
+
+	measure '% Ignorado Escolaridade' = DIVIDE(CALCULATE([Quantity], fdata[CS_ESCOL_N]="9" || fdata[CS_ESCOL_N]="09"), [Quantity], 0)
+		formatString: 0.00%
+		displayFolder: 05 Qualidade dos Dados
+		lineageTag: ec30cf03-0e32-4956-b523-219623e834ca
+
+	measure '% Sem Evolução' = DIVIDE(CALCULATE([Quantity], fdata[Evolução]="Ignorado"), [Quantity], 0)
+		formatString: 0.00%
+		displayFolder: 05 Qualidade dos Dados
+		lineageTag: 64e6af3b-74c2-4150-9920-e19d28972bfe
+
+	/// Total de notificações suspeitas de Zika, excluindo apenas as classificadas como descartadas, conforme definição da fonte oficial.
+	measure 'Total de Casos Prováveis' = CALCULATE ( COUNTROWS ( fdata ), KEEPFILTERS ( fdata[CLASS_FIN_FORM] <> "Descartado" ) )
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: a1b2c3d4-0001-4a00-9000-000000000001
+
+	/// População residente estimada pelo IBGE para 2025, usada como denominador das taxas.
+	measure 'População Residente' = SUM ( Populacao[Habitantes] )
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: a1b2c3d4-0002-4a00-9000-000000000002
+
+	/// Casos prováveis no contexto de filtro por 100 mil habitantes. O denominador usa a estimativa IBGE 2025.
+	measure 'Taxa de Incidência (100 mil hab.)' = DIVIDE ( [Total de Casos Prováveis], [População Residente] ) * 100000
+		formatString: 0.0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: a1b2c3d4-0003-4a00-9000-000000000003
+
+	/// Compatibilidade: casos acumulados no ano anterior até o mesmo período da data de corte.
+	measure 'Casos Ano Anterior' = [Casos YTD Ano Anterior]
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: a1b2c3d4-0004-4a00-9000-000000000004
+
+	/// Variação YTD em relação ao mesmo período do ano anterior.
+	measure 'Variação % (YoY)' = [Variação YTD %]
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: a1b2c3d4-0005-4a00-9000-000000000005
+
+	/// Percentual de óbitos por Zika entre os casos prováveis no contexto de filtro.
+	measure 'Taxa de Letalidade (%)' = DIVIDE ( [Óbitos pelo Agravo], [Total de Casos Prováveis] )
+		formatString: 0.000%
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: a1b2c3d4-0006-4a00-9000-000000000006
+
+	measure 'Casos (Arboviroses)' = SUM(Arboviroses[Casos])
+		formatString: #,0
+		displayFolder: 07 Arboviroses
+		lineageTag: a1b2c3d4-0007-4a00-9000-000000000007
+
+	measure 'Óbitos (Arboviroses)' = SUM(Arboviroses[Obitos])
+		formatString: #,0
+		displayFolder: 07 Arboviroses
+		lineageTag: a1b2c3d4-0008-4a00-9000-000000000008
+
+	/// Última data de notificação disponível na base, ignorando filtros do relatório.
+	measure 'Última Data Disponível' = CALCULATE ( MAX ( fdata[DT_NOTIFIC] ), REMOVEFILTERS () )
+		formatString: dd/MM/yyyy
+		displayFolder: 00 Controle
+		lineageTag: 926bd308-6bc3-4ec5-a218-6a863e6a6cdd
+
+	/// Data final usada nos cálculos YTD. Para o ano mais recente, usa a última data disponível; para anos anteriores selecionados, usa 31 de dezembro.
+	measure 'Data de Corte' =
+			VAR _UltimaData = [Última Data Disponível]
+			VAR _AnoSelecionado = SELECTEDVALUE ( dDates[Ano] )
+			VAR _AnoReferencia = COALESCE ( _AnoSelecionado, YEAR ( _UltimaData ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _UltimaData ),
+			        BLANK (),
+			        IF ( _AnoReferencia = YEAR ( _UltimaData ), _UltimaData, DATE ( _AnoReferencia, 12, 31 ) )
+			    )
+		formatString: dd/MM/yyyy
+		isHidden
+		displayFolder: 00 Controle
+		lineageTag: a377b6b0-4cfd-4260-b1b6-3cb31968ef60
+
+	/// Casos prováveis acumulados no ano até a data de corte. Sem filtro de ano, usa automaticamente o ano mais recente da base.
+	measure 'Casos YTD Atual' =
+			VAR _DataCorte = [Data de Corte]
+			VAR _InicioAno = DATE ( YEAR ( _DataCorte ), 1, 1 )
+			RETURN
+			    IF (
+			        ISBLANK ( _DataCorte ),
+			        BLANK (),
+			        CALCULATE (
+			            [Total de Casos Prováveis],
+			            FILTER ( ALL ( dDates ), dDates[Data] >= _InicioAno && dDates[Data] <= _DataCorte )
+			        )
+			    )
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: 69953d9e-89e3-4d28-83b4-96ed06952be1
+
+	/// Casos prováveis acumulados no ano anterior até o mesmo dia e mês da data de corte.
+	measure 'Casos YTD Ano Anterior' =
+			VAR _DataCorteAtual = [Data de Corte]
+			VAR _DataCorteAnterior = EDATE ( _DataCorteAtual, -12 )
+			VAR _InicioAnoAnterior = DATE ( YEAR ( _DataCorteAnterior ), 1, 1 )
+			RETURN
+			    IF (
+			        ISBLANK ( _DataCorteAtual ),
+			        BLANK (),
+			        CALCULATE (
+			            [Total de Casos Prováveis],
+			            FILTER ( ALL ( dDates ), dDates[Data] >= _InicioAnoAnterior && dDates[Data] <= _DataCorteAnterior )
+			        )
+			    )
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: 6f3a78b2-bbd6-4e17-8da5-963c2d818178
+
+	/// Variação percentual dos casos YTD em relação ao mesmo período do ano anterior.
+	measure 'Variação YTD %' = DIVIDE ( [Casos YTD Atual] - [Casos YTD Ano Anterior], [Casos YTD Ano Anterior] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: cb15b756-a265-48c4-9c31-6d5e4eb321a2
+
+	/// Casos prováveis YTD por 100 mil habitantes. O denominador utiliza a estimativa populacional IBGE 2025.
+	measure 'Taxa de Incidência YTD (100 mil hab.)' = DIVIDE ( [Casos YTD Atual], [População Residente] ) * 100000
+		formatString: 0.0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: c238ea62-deb5-4ffc-a0c6-d01f855bdab4
+
+	/// Óbitos por Zika acumulados no ano até a data de corte.
+	measure 'Óbitos YTD' =
+			VAR _DataCorte = [Data de Corte]
+			VAR _InicioAno = DATE ( YEAR ( _DataCorte ), 1, 1 )
+			RETURN
+			    IF (
+			        ISBLANK ( _DataCorte ),
+			        BLANK (),
+			        CALCULATE (
+			            [Óbitos pelo Agravo],
+			            FILTER ( ALL ( dDates ), dDates[Data] >= _InicioAno && dDates[Data] <= _DataCorte )
+			        )
+			    )
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: 955e9ce9-d107-4381-b0f7-a7b1cbc827eb
+
+	/// Percentual de óbitos entre os casos prováveis YTD.
+	measure 'Taxa de Letalidade YTD (%)' =
+			DIVIDE(
+			    COALESCE([Óbitos YTD], 0),
+			    [Casos YTD Atual]
+			)
+		formatString: 0.000%
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: 7bc5ac68-b563-4b29-8f8e-ff06f67549e2
+
+	/// Rótulo dinâmico da data de corte para títulos e tooltips.
+	measure 'Período de Referência' =
+			VAR _DataCorte = [Data de Corte]
+			RETURN IF ( ISBLANK ( _DataCorte ), "Sem dados", "Acumulado até " & FORMAT ( _DataCorte, "dd/MM/yyyy" ) )
+		displayFolder: 00 Controle
+		lineageTag: 3f02fcfa-e8e4-4e84-b0df-496015ba49d4
+
+	/// Coeficiente angular da regressão linear dos últimos 24 meses, em casos por mês.
+	measure 'Inclinação Mensal (Python)' = AVERAGE ( TendenciaPython[InclinacaoMensal] )
+		formatString: +0.00;-0.00;0.00
+		displayFolder: 08 Tendência Python
+		lineageTag: 929b447c-0236-4b45-9741-515212ec252a
+
+	/// Inclinação mensal dividida pela média mensal de casos.
+	measure 'Variação Mensal Relativa (Python)' = AVERAGE ( TendenciaPython[VariacaoMensalRelativa] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 08 Tendência Python
+		lineageTag: 9b7e61e3-250d-4670-bf5b-8f83bd9a6f7c
+
+	/// Coeficiente de determinação da regressão linear.
+	measure 'R² Tendência (Python)' = AVERAGE ( TendenciaPython[R2] )
+		formatString: 0.000
+		displayFolder: 08 Tendência Python
+		lineageTag: 73936f6a-d47b-40a7-a551-a767ac64f199
+
+	/// Classificação calculada pelo script Python.
+	measure 'Classificação Tendência (Python)' = SELECTEDVALUE ( TendenciaPython[Tendencia], "Múltiplas UFs" )
+		displayFolder: 08 Tendência Python
+		lineageTag: e5a348c7-9043-4c73-a7d5-92508c2eaaa1
+
+	/// Casos prováveis do ano de referência até a data de corte, preservando o contexto de mês ou semana do eixo.
+	measure 'Casos no Ano de Referência' =
+			VAR _DataCorte = [Data de Corte]
+			VAR _AnoReferencia = YEAR ( _DataCorte )
+			RETURN
+			    IF (
+			        ISBLANK ( _DataCorte ),
+			        BLANK (),
+			        CALCULATE (
+			            [Total de Casos Prováveis],
+			            KEEPFILTERS ( dDates[Ano] = _AnoReferencia ),
+			            KEEPFILTERS ( dDates[Data] <= _DataCorte )
+			        )
+			    )
+		formatString: #,0
+		displayFolder: 06 Incidência e Taxas
+		lineageTag: b2d61947-9b0c-4c46-a6e1-929a24a65475
+
+	column Value
+		formatString: 0
+		lineageTag: 33b198f0-473c-41db-9f7f-2b4527904f48
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Medidas = calculated
+		mode: import
+		source = {0}
+
+	annotation PBI_Id = 351450480e6d4a228204bb3c957e09de
+

@@ -1,0 +1,24 @@
+relationship a3d735a2-0957-84b3-bf08-f25c158d02a0
+	fromColumn: fdata.DT_NOTIFIC
+	toColumn: dDates.Data
+
+relationship b2d4f6a8-1357-4ace-8bd0-1f2e3c4d5e60
+	fromColumn: Arboviroses.Data
+	toColumn: dDates.Data
+
+relationship c3e5a7b9-2468-4bdf-9ce1-2a3b4c5d6e71
+	fromColumn: Arboviroses.Cod_UF
+	toColumn: Populacao.Cod_UF
+
+relationship 7c1f9a2b-5e84-4d3a-9b21-aa01c2d3e4f5
+	fromColumn: fdata.SG_UF
+	toColumn: Populacao.Cod_UF
+
+relationship 14751e73-82d4-6978-1cc3-48a67135c5ec
+	fromColumn: fdata.Cod
+	toColumn: dMunicipalities.Cod
+
+relationship d4f6b8c0-3579-4cef-ad02-3b4c5d6e7f82
+	fromColumn: TendenciaPython.Cod_UF
+	toColumn: Populacao.Cod_UF
+

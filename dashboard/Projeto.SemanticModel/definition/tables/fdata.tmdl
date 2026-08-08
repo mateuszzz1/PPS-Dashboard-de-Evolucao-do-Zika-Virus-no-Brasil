@@ -1,0 +1,540 @@
+/// Fato de notificações individuais de Zika (SINAN). A geografia analítica usa UF e município de residência; classificação provável exclui descartados.
+table fdata
+	lineageTag: cdee36f7-93fb-4073-aaa3-8525c67d4127
+
+	column TP_NOT
+		dataType: string
+		lineageTag: 561e4ec5-4209-4b9b-ad8f-677e8bd06338
+		summarizeBy: none
+		sourceColumn: TP_NOT
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_AGRAVO
+		dataType: string
+		lineageTag: 7afa988c-eb9f-4d45-8c0f-640230457c74
+		summarizeBy: none
+		sourceColumn: ID_AGRAVO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CS_SUSPEIT
+		dataType: string
+		lineageTag: eb20a991-b4c2-4be3-adee-87efc484985b
+		summarizeBy: none
+		sourceColumn: CS_SUSPEIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column DT_NOTIFIC
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 42222681-a9d2-4982-828b-e9da9092e0ed
+		summarizeBy: none
+		sourceColumn: DT_NOTIFIC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SEM_NOT
+		dataType: string
+		lineageTag: e921ab36-c33f-44e8-a440-faa3130ad8a1
+		summarizeBy: none
+		sourceColumn: SEM_NOT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SG_UF_NOT
+		dataType: string
+		lineageTag: a4a148dd-984a-450b-9841-b51189bd3914
+		summarizeBy: none
+		sourceColumn: SG_UF_NOT
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_MUNICIP
+		dataType: string
+		lineageTag: 9144b31e-ef9f-441b-8dfa-38f2eee97c18
+		summarizeBy: none
+		sourceColumn: ID_MUNICIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_REGIONA
+		dataType: string
+		lineageTag: 9cd3db81-3e70-46a2-b76e-3462794bbaf6
+		summarizeBy: none
+		sourceColumn: ID_REGIONA
+
+		annotation SummarizationSetBy = Automatic
+
+	column DT_SIN_PRI
+		dataType: string
+		lineageTag: 93d71491-7e78-4611-8b35-4aa239d7aa2f
+		summarizeBy: none
+		sourceColumn: DT_SIN_PRI
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEM_PRI
+		dataType: string
+		lineageTag: c2efe09c-2aca-4d86-bfd6-3aa6a6b95219
+		summarizeBy: none
+		sourceColumn: SEM_PRI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NU_IDADE_N
+		dataType: string
+		lineageTag: 5352530d-8b23-41c5-b90b-da2f76f992ad
+		summarizeBy: none
+		sourceColumn: NU_IDADE_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column CS_SEXO
+		dataType: string
+		lineageTag: fe81f653-5a12-4ff7-9c4a-518692ab745e
+		summarizeBy: none
+		sourceColumn: CS_SEXO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CS_GESTANT
+		dataType: string
+		lineageTag: f0e075e8-aa9f-4582-a19f-3f167274576e
+		summarizeBy: none
+		sourceColumn: CS_GESTANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CS_RACA
+		dataType: string
+		lineageTag: b7bfea0a-1024-4402-99df-3c4d04eeadba
+		summarizeBy: none
+		sourceColumn: CS_RACA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CS_ESCOL_N
+		dataType: string
+		lineageTag: adcc2821-4323-4c39-a1da-8a75ac06d41d
+		summarizeBy: none
+		sourceColumn: CS_ESCOL_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column SG_UF
+		dataType: string
+		lineageTag: 7808293f-c6c9-4eff-aa1a-98513b6eaa86
+		summarizeBy: none
+		sourceColumn: SG_UF
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_MN_RESI
+		dataType: int64
+		formatString: 0
+		lineageTag: 942e2483-5d6b-4b7d-82fa-5248a90cced5
+		summarizeBy: sum
+		sourceColumn: ID_MN_RESI
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_RG_RESI
+		dataType: string
+		lineageTag: f4cd46e5-6802-4275-9b69-4c59275f2584
+		summarizeBy: none
+		sourceColumn: ID_RG_RESI
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_PAIS
+		dataType: string
+		lineageTag: bd0e2d33-05d4-4ee4-a6d4-2d0b9d36d9b1
+		summarizeBy: none
+		sourceColumn: ID_PAIS
+
+		annotation SummarizationSetBy = Automatic
+
+	column NDUPLIC_N
+		dataType: string
+		lineageTag: 3d53d56c-412b-4e55-b7e0-38bb5a07b3e3
+		summarizeBy: none
+		sourceColumn: NDUPLIC_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column IN_VINCULA
+		dataType: string
+		lineageTag: 8845aaab-8892-4485-ab3f-b521b47f1853
+		summarizeBy: none
+		sourceColumn: IN_VINCULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column DT_INVEST
+		dataType: string
+		lineageTag: 3f62c439-5ee6-4bf0-b78b-fbc4e4cc09f1
+		summarizeBy: none
+		sourceColumn: DT_INVEST
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_OCUPA_N
+		dataType: string
+		lineageTag: 7bf03d22-df0c-453b-ac91-605b34bb2a81
+		summarizeBy: none
+		sourceColumn: ID_OCUPA_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSI_FIN
+		dataType: string
+		lineageTag: b8acf731-54af-4a4e-b8f5-e15fe73898fd
+		summarizeBy: none
+		sourceColumn: CLASSI_FIN
+
+		annotation SummarizationSetBy = Automatic
+
+	column CRITERIO
+		dataType: string
+		lineageTag: 3ba75686-bdd5-4753-800a-d525c4a4bde4
+		summarizeBy: none
+		sourceColumn: CRITERIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TPAUTOCTO
+		dataType: string
+		lineageTag: c0ec8b5f-336b-4349-9a21-02ccf80a795a
+		summarizeBy: none
+		sourceColumn: TPAUTOCTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column COUFINF
+		dataType: string
+		lineageTag: cdeea992-69ab-43a4-b0a0-9c9927c84f6e
+		summarizeBy: none
+		sourceColumn: COUFINF
+
+		annotation SummarizationSetBy = Automatic
+
+	column COPAISINF
+		dataType: string
+		lineageTag: e6cb75e4-eaf9-41ea-8a16-dfc4407e557a
+		summarizeBy: none
+		sourceColumn: COPAISINF
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMUNINF
+		dataType: string
+		lineageTag: ab9416cb-5b52-4f09-b569-c6b3e8b9185b
+		summarizeBy: none
+		sourceColumn: COMUNINF
+
+		annotation SummarizationSetBy = Automatic
+
+	column DOENCA_TRA
+		dataType: string
+		lineageTag: fe851dcd-518c-42ec-8158-0a15b473755c
+		summarizeBy: none
+		sourceColumn: DOENCA_TRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column EVOLUCAO
+		dataType: string
+		lineageTag: c8df5000-2ffe-4a7a-b4d1-c7da617ef0af
+		summarizeBy: none
+		sourceColumn: EVOLUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DT_OBITO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 08efda7d-9266-4126-9a7f-84cb0a2c0151
+		summarizeBy: none
+		sourceColumn: DT_OBITO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DT_ENCERRA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9e419e8c-a97e-4ecf-8cbf-e898c6d11b53
+		summarizeBy: none
+		sourceColumn: DT_ENCERRA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CS_FLXRET
+		dataType: string
+		lineageTag: 0305a241-01d5-4623-a2ce-d0763d426cbc
+		summarizeBy: none
+		sourceColumn: CS_FLXRET
+
+		annotation SummarizationSetBy = Automatic
+
+	column FLXRECEBI
+		dataType: string
+		lineageTag: 08cf8c5b-efb8-4790-a3ca-c89574bb45d7
+		summarizeBy: none
+		sourceColumn: FLXRECEBI
+
+		annotation SummarizationSetBy = Automatic
+
+	column TP_SISTEMA
+		dataType: string
+		lineageTag: 4551f57d-b0ad-4f2c-8a57-2872db5240f4
+		summarizeBy: none
+		sourceColumn: TP_SISTEMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TPUNINOT
+		dataType: string
+		lineageTag: ca386034-c894-4f1a-a886-1c654e5e171e
+		summarizeBy: none
+		sourceColumn: TPUNINOT
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_UNIDADE
+		dataType: string
+		lineageTag: 9231402d-1f2e-4e0e-9817-e0caf993caf6
+		summarizeBy: none
+		sourceColumn: ID_UNIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO_NASC
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d3cb6315-16b0-4898-a42a-e2ec37e39335
+		summarizeBy: none
+		sourceColumn: ANO_NASC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DT_DIGITA
+		dataType: string
+		lineageTag: 8d051615-e17f-4d23-a18e-ad094339c8fd
+		summarizeBy: none
+		sourceColumn: DT_DIGITA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id
+		dataType: int64
+		formatString: 0
+		lineageTag: bd7ebf7b-acf2-4bd3-b2ad-4e39d2fa8757
+		summarizeBy: count
+		sourceColumn: Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column NU_IDADEA_N_CALC
+		dataType: double
+		lineageTag: 4ff30017-8098-4c0c-b402-817220c8ec55
+		summarizeBy: sum
+		sourceColumn: NU_IDADEA_N_CALC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Cod
+		dataType: string
+		lineageTag: 6fb90b1e-2cb4-4715-9dad-7170f9eb8f94
+		summarizeBy: none
+		sourceColumn: Cod
+
+		annotation SummarizationSetBy = Automatic
+
+	column FAIXA_ETARIA =
+			
+			SWITCH(
+			    TRUE(),
+			    [NU_IDADEA_N_CALC]<= 4, "1) 0-4",
+			    [NU_IDADEA_N_CALC] <= 9, "2) 5-9",
+			    [NU_IDADEA_N_CALC] <= 14, "3) 10-14",
+			    [NU_IDADEA_N_CALC] <= 19, "4) 15-19",
+			    [NU_IDADEA_N_CALC] <= 29, "5) 20-29",
+			    [NU_IDADEA_N_CALC] <= 39, "6) 30-39",
+			    [NU_IDADEA_N_CALC] <= 49, "7) 40-49",
+			    [NU_IDADEA_N_CALC] <= 59, "8) 50-59",
+			    [NU_IDADEA_N_CALC] <= 69, "9) 60-69",
+			    [NU_IDADEA_N_CALC] <= 79, "10) 70-79",
+			    [NU_IDADEA_N_CALC] <= 89, "11) 80-89",
+			    "90+"
+			)
+		lineageTag: 1a5e9b59-486b-4521-b027-b1684d1c93c6
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASS_FIN_FORM
+		dataType: string
+		lineageTag: c0031ac5-279a-4ec8-be18-56eaa0776803
+		summarizeBy: none
+		sourceColumn: CLASS_FIN_FORM
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sexo = IF(fdata[CS_SEXO]="M","Masculino",IF(fdata[CS_SEXO]="F","Feminino","Ignorado"))
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: 34032289-2fc5-4cfd-a7ba-bcb60b176b1c
+		summarizeBy: none
+
+	column Raça/Cor = SWITCH(fdata[CS_RACA],"1","Branca","2","Preta","3","Amarela","4","Parda","5","Indígena","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: 318a7047-61b2-4449-a155-9fbe0221c3b7
+		summarizeBy: none
+
+	column Escolaridade = VAR e = IF(OR(ISBLANK(fdata[CS_ESCOL_N]),fdata[CS_ESCOL_N]=""),-1,VALUE(fdata[CS_ESCOL_N])) RETURN SWITCH(e,0,"Analfabeto",1,"1ª a 4ª série incompleta do EF",2,"4ª série completa do EF",3,"5ª à 8ª série incompleta do EF",4,"Ensino fundamental completo",5,"Ensino médio incompleto",6,"Ensino médio completo",7,"Educação superior incompleta",8,"Educação superior completa",10,"Não se aplica","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: 399bc9d0-e921-438e-9fdd-ae71057dab47
+		summarizeBy: none
+
+	column Gestante = SWITCH(fdata[CS_GESTANT],"1","1º Trimestre","2","2º Trimestre","3","3º Trimestre","4","Idade gestacional ignorada","5","Não","6","Não se aplica","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: c7d55b17-04b0-4030-a5d2-92fe6fa6cacd
+		summarizeBy: none
+
+	column 'Critério de Confirmação' = SWITCH(fdata[CRITERIO],"1","Laboratorial","2","Clínico-epidemiológico","3","Em investigação","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: fd419e33-54b4-4283-aaf2-6f16d092643c
+		summarizeBy: none
+
+	column Evolução = SWITCH(fdata[EVOLUCAO],"1","Cura","2","Óbito pelo agravo","3","Óbito por outras causas","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: 96f22b8b-ce03-47cb-b9c7-a5a0b2d57a80
+		summarizeBy: none
+
+	column Autoctonia = SWITCH(fdata[TPAUTOCTO],"1","Sim","2","Não","3","Indeterminado","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: b08d6e79-13d0-4c31-9f37-d939b60faf05
+		summarizeBy: none
+
+	column 'UF Notificação' = SWITCH(fdata[SG_UF_NOT],"11","RO","12","AC","13","AM","14","RR","15","PA","16","AP","17","TO","21","MA","22","PI","23","CE","24","RN","25","PB","26","PE","27","AL","28","SE","29","BA","31","MG","32","ES","33","RJ","35","SP","41","PR","42","SC","43","RS","50","MS","51","MT","52","GO","53","DF","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: d6911c15-d700-4056-b719-427061df6727
+		summarizeBy: none
+
+	column Região = SWITCH(LEFT(fdata[SG_UF_NOT],1),"1","Norte","2","Nordeste","3","Sudeste","4","Sul","5","Centro-Oeste","Ignorado")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: 43907334-95f2-4245-84c1-575805c0605a
+		summarizeBy: none
+
+	column 'Semana Epidemiológica' = IF(LEN(fdata[SEM_NOT])>=6,VALUE(RIGHT(fdata[SEM_NOT],2)),BLANK())
+		dataType: int64
+		formatString: 0
+		displayFolder: Decodificação
+		lineageTag: 1998703c-ae28-4c94-a99a-9a7e81c817a1
+		summarizeBy: none
+
+	column 'Ano Notificação' = YEAR(fdata[DT_NOTIFIC])
+		dataType: int64
+		formatString: 0
+		displayFolder: Decodificação
+		lineageTag: 16e2d25f-c589-4e1d-baba-a3f30b3c70f0
+		summarizeBy: none
+
+	column 'Faixa Etária (10 anos)' = SWITCH(TRUE(),fdata[NU_IDADEA_N_CALC]<=9,"0-9",fdata[NU_IDADEA_N_CALC]<=19,"10-19",fdata[NU_IDADEA_N_CALC]<=29,"20-29",fdata[NU_IDADEA_N_CALC]<=39,"30-39",fdata[NU_IDADEA_N_CALC]<=49,"40-49",fdata[NU_IDADEA_N_CALC]<=59,"50-59",fdata[NU_IDADEA_N_CALC]<=69,"60-69",fdata[NU_IDADEA_N_CALC]<=79,"70-79","80+")
+		dataType: string
+		displayFolder: Decodificação
+		lineageTag: be9439e9-80e7-4481-a15e-c36b6733db30
+		summarizeBy: none
+
+	column Cod_Resi
+		dataType: string
+		lineageTag: 12b65044-6071-4b5c-9aad-32ba58920374
+		summarizeBy: none
+		sourceColumn: Cod_Resi
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fdata = m
+		mode: import
+		source =
+				let
+				  Origem = Folder.Files("C:\Users\Usuario\Documents\Projetos\PPS Final\data\sinan_zika"),
+				    FiltraZika = Table.SelectRows(Origem, each Text.StartsWith([Name], "ZIKABR") and Text.Lower([Extension]) = ".csv"),
+				    fx = Table.AddColumn(FiltraZika, "fx", each fx([Content])),
+				    Personalizar1 = Table.Combine( fx[fx] ),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Personalizar1,{{"DT_OBITO", type date}}),
+				    index = Table.AddIndexColumn(#"Tipo Alterado", "Id", 0, 1, Int64.Type),
+				    #"Personalização Adicionada" = Table.AddColumn(index, "NU_IDADEA_N_CALC", each if  [NU_IDADE_N] = null then
+				    0
+				else
+				    let
+				        Valor = Text.From([NU_IDADE_N]),
+				        Tipo = Text.Start(Valor, 1),
+				        Quantidade = Number.From(Text.Range(Valor, 1))
+				    in
+				        if Tipo = "1" then Quantidade / (24 * 365)
+				        else if Tipo = "2" then Quantidade / 365
+				        else if Tipo = "3" then Quantidade / 12
+				        else if Tipo = "4" then Quantidade
+				        else 0, type number ),
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"Personalização Adicionada",{{"DT_NOTIFIC", type date}}),
+				    #"Colunas Reordenadas" = Table.ReorderColumns(#"Tipo Alterado2",{ "Id","NU_IDADE_N",  "NU_IDADEA_N_CALC","TP_NOT", "ID_AGRAVO", "CS_SUSPEIT", "DT_NOTIFIC", "SEM_NOT", "SG_UF_NOT", "ID_MUNICIP", "ID_REGIONA", "DT_SIN_PRI", "SEM_PRI", "CS_SEXO", "CS_GESTANT", "CS_RACA", "CS_ESCOL_N", "SG_UF", "ID_MN_RESI", "ID_RG_RESI", "ID_PAIS", "NDUPLIC_N", "IN_VINCULA", "DT_INVEST", "ID_OCUPA_N", "CLASSI_FIN", "CRITERIO", "TPAUTOCTO", "COUFINF", "COPAISINF", "COMUNINF", "DOENCA_TRA", "EVOLUCAO", "DT_OBITO", "DT_ENCERRA", "CS_FLXRET", "FLXRECEBI", "TP_SISTEMA", "TPUNINOT", "ID_UNIDADE", "ANO_NASC", "DT_DIGITA"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Colunas Reordenadas",{{"ANO_NASC", type date}, {"ID_MUNICIP", type text}, {"ID_MN_RESI", Int64.Type}}),
+				    #"Chave Município Residência" = Table.AddColumn(
+				        #"Tipo Alterado1",
+				        "Cod_Resi",
+				        each if [ID_MN_RESI] = null then "000000" else Text.PadStart(Text.From([ID_MN_RESI]), 6, "0"),
+				        type text
+				    ),
+				    #"Consultas Mescladas" = Table.NestedJoin(#"Chave Município Residência", {"Cod_Resi"}, dMunicipalities, {"Cod"}, "municipios", JoinKind.LeftOuter),
+				    #"municipios Expandido" = Table.ExpandTableColumn(#"Consultas Mescladas", "municipios", {"Cod"}, {"Cod"}),
+				    #"Município Ignorado Normalizado" = Table.ReplaceValue(#"municipios Expandido", null, "000000", Replacer.ReplaceValue, {"Cod"}),
+				    #"UF Residência Normalizada" = Table.TransformColumns(
+				        #"Município Ignorado Normalizado",
+				        {{"SG_UF", each if _ = null then "00" else let v = Text.Trim(Text.From(_)) in if v = "" then "00" else Text.PadStart(v, 2, "0"), type text}}
+				    ),
+				    #"Personalização Adicionada1" = Table.AddColumn(#"UF Residência Normalizada", "CLASS_FIN_FORM", each let
+				            Classificacao =
+				                Record.FieldOrDefault(
+				                    [
+				                        #"1" = "Confirmado",
+				                        #"2" = "Descartado",
+				                        #"9" = "Ignorado"
+				                    ],
+				                    Text.From([CLASSI_FIN]),
+				                    null
+				                )
+				        in
+				            if Classificacao <> null then
+				                Classificacao
+				            else if [DT_ENCERRA] <> null then
+				                "Não Informado"
+				            else
+				                "Em Aberto", type text )
+				in
+				    #"Personalização Adicionada1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

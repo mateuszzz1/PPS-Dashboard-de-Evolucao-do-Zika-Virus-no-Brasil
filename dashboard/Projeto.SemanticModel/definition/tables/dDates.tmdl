@@ -1,0 +1,135 @@
+/// Dimensão calendário oficial, marcada como tabela de datas, com atributos mensais e semana epidemiológica.
+table dDates
+	lineageTag: 06f55001-8a17-4bf0-82d6-042987a79049
+	dataCategory: Time
+
+	column Data
+		dataType: dateTime
+		isUnique
+		formatString: Short Date
+		lineageTag: 27aeb071-dd25-4811-8b30-f13d3ac9ed2d
+		summarizeBy: none
+		sourceColumn: Data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 69a26f1f-cb1d-4ff8-a520-3b118fd0be27
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: int64
+		formatString: 0
+		lineageTag: f37595d8-9cb9-48d1-b1fe-7f01f6d4255b
+		summarizeBy: sum
+		sourceColumn: Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome Mês'
+		dataType: string
+		lineageTag: 8d48e091-2b1f-4895-8e08-121b9bd892d6
+		summarizeBy: none
+		sourceColumn: Nome Mês
+		sortByColumn: Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: int64
+		formatString: 0
+		lineageTag: d7ed0b7e-19be-499d-bd70-129e7b505199
+		summarizeBy: sum
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dia
+		dataType: int64
+		formatString: 0
+		lineageTag: b8a00795-dee5-4b71-b896-595b825b4f7d
+		summarizeBy: sum
+		sourceColumn: Dia
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Rótulo mensal para eixos temporais.
+	column 'Mes e  ano'
+		dataType: string
+		lineageTag: 35aac607-e52b-4108-8f87-c7b1dd575d27
+		summarizeBy: none
+		sourceColumn: Mes e  ano
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Ano epidemiológico segundo semanas de domingo a sábado e regra da semana com pelo menos quatro dias no novo ano.
+	column 'Ano Epidemiológico' =
+			VAR _Data = dDates[Data]
+			RETURN YEAR ( _Data + ( 4 - WEEKDAY ( _Data, 1 ) ) )
+		dataType: int64
+		displayFolder: Calendário Epidemiológico
+		lineageTag: 32ac04c7-b246-4419-8d7f-9b06e9c4bbbd
+
+	/// Número da semana epidemiológica, iniciada no domingo.
+	column 'Semana Epidemiológica' =
+			VAR _Data = dDates[Data]
+			VAR _AnoEpi = YEAR ( _Data + ( 4 - WEEKDAY ( _Data, 1 ) ) )
+			VAR _QuatroJaneiro = DATE ( _AnoEpi, 1, 4 )
+			VAR _InicioSE1 = _QuatroJaneiro - WEEKDAY ( _QuatroJaneiro, 1 ) + 1
+			RETURN INT ( DIVIDE ( _Data - _InicioSE1, 7 ) ) + 1
+		dataType: int64
+		formatString: 00
+		displayFolder: Calendário Epidemiológico
+		lineageTag: 2df80421-8ce6-4aee-8deb-dafefda39464
+
+	/// Rótulo de ano e semana epidemiológica para eixos e filtros.
+	column Ano-SE = FORMAT ( dDates[Ano Epidemiológico], "0000" ) & "-SE" & FORMAT ( dDates[Semana Epidemiológica], "00" )
+		dataType: string
+		displayFolder: Calendário Epidemiológico
+		lineageTag: 52af4986-c759-408b-ab40-a6689bdc5a81
+		sortByColumn: 'Ano-SE Ordem'
+
+	/// Chave numérica de ordenação do rótulo Ano-SE.
+	column 'Ano-SE Ordem' = dDates[Ano Epidemiológico] * 100 + dDates[Semana Epidemiológica]
+		dataType: int64
+		isHidden
+		displayFolder: Calendário Epidemiológico
+		lineageTag: dfbc96a7-90a1-4594-bcff-bf188ad12272
+
+	partition dDates = m
+		mode: import
+		queryGroup: Dim
+		source =
+				let
+				    DataInicial = #date(2016, 01,01),
+				    DataFinal = #date( 2026,12,31),
+				
+				    Datas = List.Dates(
+				        DataInicial,
+				        Duration.Days(DataFinal - DataInicial) + 1,
+				        #duration(1,0,0,0)
+				    ),
+				
+				    Calendario = Table.FromList(Datas, Splitter.SplitByNothing(), {"Data"}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Calendario,{{"Data", type date}}),
+				
+				    Ano = Table.AddColumn(#"Tipo Alterado", "Ano", each Date.Year([Data]), Int64.Type),
+				    Mes = Table.AddColumn(Ano, "Mês", each Date.Month([Data]), Int64.Type),
+				    NomeMes = Table.AddColumn(Mes, "Nome Mês", each Date.MonthName([Data]), type text),
+				    Trimestre = Table.AddColumn(NomeMes, "Trimestre", each Date.QuarterOfYear([Data]), Int64.Type),
+				    Dia = Table.AddColumn(Trimestre, "Dia", each Date.Day([Data]), Int64.Type),
+				    #"Personalização Adicionada" = Table.AddColumn(Dia, "Mes e  ano", each Text.Start( Text.Proper( [Nome Mês]), 3) & "' " &  Text.From([Ano]))
+				in
+				    #"Personalização Adicionada"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
