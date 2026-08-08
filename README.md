@@ -43,7 +43,6 @@ Indicadores da versão entregue:
 │   ├── Projeto.Report/
 │   └── Projeto.SemanticModel/
 ├── data/
-│   ├── README.md
 │   ├── auxiliares/
 │   │   ├── municipios.csv
 │   │   └── populacao_ibge_2025.csv
