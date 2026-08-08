@@ -1,0 +1,3 @@
+# Bases baixadas separadamente; manter somente este arquivo no Git
+*
+!.gitignore

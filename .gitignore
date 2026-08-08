@@ -2,9 +2,6 @@
 **/.pbi/
 **/.pbi/**
 
-# Bases de dados fornecidas separadamente
-data/
-
 # Binários e exportações locais
 *.pbix
 *.pbit

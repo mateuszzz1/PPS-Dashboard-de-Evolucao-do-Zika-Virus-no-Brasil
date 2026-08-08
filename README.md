@@ -83,7 +83,7 @@ Baixe o pacote consolidado com todas as bases necessárias:
 
 - [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1UKDthnx4YI3rX2fZINzRIHVWAmuz6CJM)
 
-Crie uma pasta chamada `data` na raiz do repositório e extraia o conteúdo do ZIP diretamente dentro dela. O ZIP já começa pelas pastas `auxiliares`, `derivados` e `sinan_zika`; não crie outro nível de pasta.
+A pasta `data` já acompanha o repositório. Extraia o conteúdo do ZIP diretamente dentro dela. O ZIP já começa pelas pastas `auxiliares`, `derivados` e `sinan_zika`; não crie outro nível de pasta.
 
 Ao final, a estrutura deve conter diretamente os caminhos `data/auxiliares`, `data/derivados` e `data/sinan_zika`. Confirme também que existe o arquivo `data/sinan_zika/ZIKABR26.csv`. Como nenhuma base é versionada no repositório, a extração não deve solicitar substituição de arquivos.
 
