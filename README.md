@@ -75,6 +75,12 @@ O endereço de download inicialmente indicado para os arquivos históricos de Zi
 
 Chikungunya e Febre Amarela são bases adicionais usadas na comparação entre arboviroses. Os arquivos de comparação e tendência presentes em `data/` são derivados dessas fontes e do SINAN/Zika; não constituem novas fontes externas.
 
+## Componente cartográfico open-source
+
+O mapa por UF utiliza o visual customizado [Ale Maps — Americas](https://github.com/Alelourenco/custom-map-powerbi), versão 2.1.0.0, desenvolvido por **Alelourenco** e distribuído sob licença MIT. O projeto configurou campos, medidas, cores, escala, rótulos e tooltips para a análise epidemiológica; a autoria do código do visual permanece atribuída ao desenvolvedor original.
+
+Esse componente é uma tecnologia de visualização e não constitui uma fonte de dados do dashboard.
+
 ## Como executar o projeto
 
 ### 1. Baixar o pacote de dados
@@ -98,16 +104,21 @@ powershell -ExecutionPolicy Bypass -File .\scripts\configurar_caminhos.ps1
 ```
 
 O script aponta as consultas do PBIP para a pasta local clonada, sem modificar as regras de negócio.
+Ele utiliza somente o PowerShell; não é necessário instalar Python para esta etapa.
 
 ### 3. Abrir e atualizar
 
 Abra `dashboard/Projeto.pbip` no Power BI Desktop e selecione **Atualizar**.
 
-### 4. Recalcular a tendência em Python
+### 4. Recalcular a tendência em Python (opcional)
+
+O pacote de dados já inclui `data/derivados/tendencia_zika_uf.csv` calculado. Portanto, esta etapa não é necessária para abrir, atualizar ou utilizar o dashboard.
+
+Execute os comandos abaixo somente se desejar recalcular a análise de tendência durante o desenvolvimento. Nesse caso, instale primeiro o [Python para Windows](https://www.python.org/downloads/windows/) e reabra o PowerShell.
 
 ```powershell
-python -m pip install -r requirements.txt
-python .\scripts\analise_tendencia_zika.py .\data\derivados\zika_mensal_uf_24m.csv .\data\derivados\tendencia_zika_uf.csv
+py -m pip install -r requirements.txt
+py .\scripts\analise_tendencia_zika.py .\data\derivados\zika_mensal_uf_24m.csv .\data\derivados\tendencia_zika_uf.csv
 ```
 
 ## Modelo analítico
