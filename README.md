@@ -81,7 +81,7 @@ Chikungunya e Febre Amarela são bases adicionais usadas na comparação entre a
 
 Baixe o pacote consolidado com todas as bases necessárias:
 
-- [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1TgI6bbyCCGLmpjxKTdG3yV2eWcsXDQpA)
+- [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1UKDthnx4YI3rX2fZINzRIHVWAmuz6CJM)
 
 Extraia o arquivo ZIP e copie as pastas `auxiliares`, `derivados` e `sinan_zika` para a pasta `data/` deste repositório. Ao final, confirme que existe o caminho `data/sinan_zika/ZIKABR26.csv`.
 
