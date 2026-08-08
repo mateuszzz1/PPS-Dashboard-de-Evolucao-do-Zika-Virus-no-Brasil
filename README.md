@@ -42,7 +42,7 @@ Indicadores da versão entregue:
 │   ├── Projeto.pbip
 │   ├── Projeto.Report/
 │   └── Projeto.SemanticModel/
-├── data/
+├── data/  (criada após extrair o pacote de dados)
 │   ├── auxiliares/
 │   │   ├── municipios.csv
 │   │   └── populacao_ibge_2025.csv
@@ -83,9 +83,11 @@ Baixe o pacote consolidado com todas as bases necessárias:
 
 - [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1UKDthnx4YI3rX2fZINzRIHVWAmuz6CJM)
 
-Extraia o arquivo ZIP e copie as pastas `auxiliares`, `derivados` e `sinan_zika` para a pasta `data/` deste repositório. Ao final, confirme que existe o caminho `data/sinan_zika/ZIKABR26.csv`.
+Crie uma pasta chamada `data` na raiz do repositório e extraia o conteúdo do ZIP diretamente dentro dela. O ZIP já começa pelas pastas `auxiliares`, `derivados` e `sinan_zika`; não crie outro nível de pasta.
 
-Os microdados anuais não são versionados no GitHub devido ao tamanho e devem ser obtidos por esse pacote. A origem oficial dos dados continua indicada na seção **Fontes utilizadas**.
+Ao final, a estrutura deve conter diretamente os caminhos `data/auxiliares`, `data/derivados` e `data/sinan_zika`. Confirme também que existe o arquivo `data/sinan_zika/ZIKABR26.csv`. Como nenhuma base é versionada no repositório, a extração não deve solicitar substituição de arquivos.
+
+As bases de dados não são versionadas no GitHub e devem ser obtidas por esse pacote. A origem oficial dos dados continua indicada na seção **Fontes utilizadas**.
 
 ### 2. Ajustar os caminhos locais
 

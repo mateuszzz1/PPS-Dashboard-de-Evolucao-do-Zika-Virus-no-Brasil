@@ -2,10 +2,8 @@
 **/.pbi/
 **/.pbi/**
 
-# Microdados anuais: baixar da fonte oficial
-data/sinan_zika/ZIKABR*.csv
-data/auxiliares/POP*.xls
-data/auxiliares/POP*.xlsx
+# Bases de dados fornecidas separadamente
+data/
 
 # Binários e exportações locais
 *.pbix
