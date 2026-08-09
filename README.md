@@ -81,6 +81,8 @@ O mapa por UF utiliza o visual customizado [Ale Maps — Americas](https://githu
 
 Esse componente é uma tecnologia de visualização e não constitui uma fonte de dados do dashboard.
 
+Para evitar falhas de extração do ZIP no Windows por caminhos longos, o pacote incorporado usa apenas um identificador técnico local mais curto. O código, os recursos cartográficos, a versão e a atribuição ao projeto original permanecem inalterados.
+
 ## Como executar o projeto
 
 ### 1. Baixar o pacote de dados

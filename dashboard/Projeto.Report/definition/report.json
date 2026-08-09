@@ -61,12 +61,12 @@
       ]
     },
     {
-      "name": "aleMapsVisual5B5DD37DD18C45B1B3C7DD73C184549D",
+      "name": "aleMapsPPSZika2026",
       "type": "CustomVisual",
       "items": [
         {
-          "name": "aleMapsVisual5B5DD37DD18C45B1B3C7DD73C184549D.pbiviz.json",
-          "path": "aleMapsVisual5B5DD37DD18C45B1B3C7DD73C184549D.pbiviz.json",
+          "name": "aleMapsPPSZika2026.pbiviz.json",
+          "path": "aleMapsPPSZika2026.pbiviz.json",
           "type": "CustomVisualMetadata"
         }
       ]
