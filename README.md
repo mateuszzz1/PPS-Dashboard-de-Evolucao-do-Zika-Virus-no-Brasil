@@ -34,7 +34,7 @@ Indicadores da versão entregue:
 
 > Notificação não equivale a caso confirmado. Os casos prováveis seguem a definição da fonte oficial: todas as notificações suspeitas, exceto as descartadas.
 
-## Estrutura do repositório
+## Estrutura do pacote completo
 
 ```text
 .
@@ -42,7 +42,7 @@ Indicadores da versão entregue:
 │   ├── Projeto.pbip
 │   ├── Projeto.Report/
 │   └── Projeto.SemanticModel/
-├── data/  (criada após extrair o pacote de dados)
+├── data/  (incluída no pacote completo da Release)
 │   ├── auxiliares/
 │   │   ├── municipios.csv
 │   │   └── populacao_ibge_2025.csv
@@ -85,27 +85,30 @@ Para evitar falhas de extração do ZIP no Windows por caminhos longos, o pacote
 
 ## Como executar o projeto
 
-### 1. Baixar o pacote de dados
+### 1. Baixar o pacote completo
 
-Baixe o pacote consolidado com todas as bases necessárias:
+Baixe a entrega completa diretamente pela Release mais recente do GitHub:
 
-- [Download — bases do Dashboard de Zika (Google Drive)](https://drive.google.com/uc?export=download&id=1UKDthnx4YI3rX2fZINzRIHVWAmuz6CJM)
+- [Download — projeto e bases consolidadas](https://github.com/mateuszzz1/PPS-Dashboard-de-Evolucao-do-Zika-Virus-no-Brasil/releases/latest/download/PPS-Zika-Entrega-Completa.zip)
+- [Página da Release mais recente](https://github.com/mateuszzz1/PPS-Dashboard-de-Evolucao-do-Zika-Virus-no-Brasil/releases/latest)
 
-A pasta `data` já acompanha o repositório. Extraia o conteúdo do ZIP diretamente dentro dela. O ZIP já começa pelas pastas `auxiliares`, `derivados` e `sinan_zika`; não crie outro nível de pasta.
+O pacote contém o projeto Power BI, scripts, documentação e todas as bases necessárias. Extraia o ZIP normalmente em uma pasta de sua escolha; não é necessário baixar ou copiar arquivos adicionais.
 
-Ao final, a estrutura deve conter diretamente os caminhos `data/auxiliares`, `data/derivados` e `data/sinan_zika`. Confirme também que existe o arquivo `data/sinan_zika/ZIKABR26.csv`. Como nenhuma base é versionada no repositório, a extração não deve solicitar substituição de arquivos.
+Após a extração, confirme que a pasta principal contém `dashboard`, `data`, `docs` e `scripts`. Dentro de `data`, devem existir diretamente as pastas `auxiliares`, `derivados` e `sinan_zika`, incluindo o arquivo `data/sinan_zika/ZIKABR26.csv`.
 
-As bases de dados não são versionadas no GitHub e devem ser obtidas por esse pacote. A origem oficial dos dados continua indicada na seção **Fontes utilizadas**.
+> Use o pacote da **Release**. A opção **Code → Download ZIP** contém apenas os arquivos versionados do repositório e não inclui as bases de dados consolidadas.
+
+As bases não fazem parte do histórico do Git; elas são distribuídas somente no pacote completo da Release. As respectivas origens oficiais estão indicadas na seção **Fontes utilizadas**.
 
 ### 2. Ajustar os caminhos locais
 
-No PowerShell, a partir da raiz do repositório, execute:
+No PowerShell, a partir da pasta principal extraída, execute:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\configurar_caminhos.ps1
 ```
 
-O script aponta as consultas do PBIP para a pasta local clonada, sem modificar as regras de negócio.
+O script aponta as consultas do PBIP para a pasta local extraída, sem modificar as regras de negócio.
 Ele utiliza somente o PowerShell; não é necessário instalar Python para esta etapa.
 
 ### 3. Abrir e atualizar
